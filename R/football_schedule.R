@@ -1,0 +1,10 @@
+#' Returns usports football schedule
+#'
+#' @returns A Dataframe.
+#' @examples
+#' football_schedule()
+#' @export
+
+football_schedule <- function() {
+  read_csv("https://github.com/uwaggs/usports-data/releases/download/football_schedule/fball_schedule.csv")
+}
