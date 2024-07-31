@@ -1,0 +1,18 @@
+#' Returns usports wrestling team rankings
+#'
+#' @param gender Gender of athletes "m" or "w"
+#' @returns A Dataframe.
+#' @examples
+#' wrestling_team_rankings("m")
+#' wrestling_team_rankings("w")
+#' @export
+
+wrestling_team_rankings <- function(gender){
+  if (gender == "m"){
+    read_csv("https://github.com/uwaggs/usports-wrestling/releases/download/wrestling_team_rankings/mens_team.csv")
+  }else if(gender == "w"){
+    read_csv("https://github.com/uwaggs/usports-wrestling/releases/download/wrestling_team_rankings/womens_team.csv")
+  }else{
+    stop("Invalid input: 'gender' must be one of 'm' or 'w'")
+  }
+}

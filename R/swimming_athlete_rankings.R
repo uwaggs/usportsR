@@ -1,0 +1,10 @@
+#' Returns usports swimming athletes rankings
+#'
+#' @returns A Dataframe.
+#' @examples
+#' swimming_athlete_rankings()
+#' @export
+swimming_athlete_rankings <- function(){
+  read_csv("https://github.com/uwaggs/usports-data/releases/download/swimming_team_rankings/swimming_team_rankings.csv")
+}
+
