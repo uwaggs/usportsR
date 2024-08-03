@@ -1,0 +1,63 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# usportsR
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+`usportsR` is a package that is designed to provide users with data from all Usports
+sanctioned sports.
+
+- The package contains U Sports data spanning over a decade of pre-season, regular season, and post-season matches.
+
+- Sports currently included are Soccer, Basketball, Ice Hockey, Field Hockey, Track and Field
+Field Hockey, Football, Wrestling, Swimming and Rugby
+
+- We currently provide access to box score, play-by-play, schedules and rankings data 
+
+## Installation
+
+You can install the development version of usportsR from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("uwaggs/usportsR")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(usportsR)
+library(dplyr)
+## basic example to find number of 40+ point games
+
+mens_player_box_scores <- basketball_player_box_score("m")
+mens_40_pt_games <- mens_player_box_scores %>% filter(PTS >= 40)
+head(mens_40_pt_games,10)
+```
+
+```{r}
+library(ggplot2)
+## simple plot to illustrate points vs assists in 40+ point games in Usport basketball games
+
+ggplot(mens_40_pt_games,aes(x = PTS,y = AST)) + geom_point() +
+  labs(title = "Points Vs Assists in 40 point games", x = "Points",y = "Assists")
+
+```
+
+
