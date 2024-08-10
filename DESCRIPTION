@@ -2,9 +2,9 @@ Package: usportsR
 Title: Access Usports Sports Data
 Version: 0.0.0.9000
 Authors@R: 
-    person("Shamar", "Phillips", "slphilli@uwaterloo.ca", role = c("aut", "cre")),
+    c(person("Shamar", "Phillips", "slphilli@uwaterloo.ca", role = c("aut", "cre")),
     person("Rithika","Silva","rithikasilva@outlook.com", role = c("aut", "cre")),
-    person("David","Awosoga","david.awosoga@uwaterloo.ca",role = c("aut", "cre"))
+    person("David","Awosoga","david.awosoga@uwaterloo.ca",role = c("aut", "cre")))
 Description: usportsR is an R package that contains datasets from 11 Usports sanctioned sports.Usports is the governing body and leader of university sports in Canada.
 License: MIT + file LICENSE
 Imports:
@@ -13,5 +13,5 @@ Imports:
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-URL: https://github.com/awosoga/usportsR
-BugReports: https://github.com/awosoga/usportsR/issues
+URL: https://github.com/uwaggs/usportsR
+BugReports: https://github.com/uwaggs/usportsR/issues
