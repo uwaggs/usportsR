@@ -4,7 +4,7 @@
 \alias{football_defence}
 \title{Returns usports football defence stats}
 \usage{
-football_defence()
+football_defence(year = c())
 }
 \value{
 A Dataframe.

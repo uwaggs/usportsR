@@ -4,7 +4,7 @@
 \alias{football_drive_summaries}
 \title{Returns usports football drive summaries}
 \usage{
-football_drive_summaries()
+football_drive_summaries(year = c())
 }
 \value{
 A Dataframe.

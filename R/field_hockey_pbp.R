@@ -11,5 +11,5 @@ field_hockey_pbp <- function(year = c()) {
   }
   seasons <- create_season(year)
   sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/field_hockey_pbp/womens_pbp_",season,".csv",sep = "")) %>%
-    lapply(read.csv) %>% dplyr::bind_rows()
+    lapply(read_csv) %>% dplyr::bind_rows()
 }

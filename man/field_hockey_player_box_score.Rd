@@ -4,7 +4,7 @@
 \alias{field_hockey_player_box_score}
 \title{Returns usports field hockey player box scores}
 \usage{
-field_hockey_player_box_score()
+field_hockey_player_box_score(year = c())
 }
 \value{
 A Dataframe.

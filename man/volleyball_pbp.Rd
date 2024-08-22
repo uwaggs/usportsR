@@ -4,7 +4,7 @@
 \alias{volleyball_pbp}
 \title{Returns usports volleyball play by play data}
 \usage{
-volleyball_pbp(gender)
+volleyball_pbp(gender, year = c())
 }
 \arguments{
 \item{gender}{Gender of athletes "m" or "w"}

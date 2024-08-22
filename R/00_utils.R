@@ -4,6 +4,7 @@
 #' @return A data frame with the first few rows of the CSV file.
 #' @importFrom magrittr %>%
 #' @importFrom utils read.csv
+#' @export
 read_csv <- function(file_url){
   tryCatch(read.csv(url(file_url)),error = function(e) data.frame()) %>%
     suppressWarnings()

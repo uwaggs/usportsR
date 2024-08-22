@@ -4,7 +4,7 @@
 \alias{football_pbp}
 \title{Returns usports football schedule}
 \usage{
-football_pbp()
+football_pbp(year = c())
 }
 \value{
 A Dataframe.

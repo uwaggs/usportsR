@@ -11,5 +11,5 @@ football_returns <- function(year = c()) {
   }
   seasons <- create_season(year)
   sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/football_offence/returns_",season,".csv",sep = "")) %>%
-    lapply(read.csv) %>% dplyr::bind_rows()
+    lapply(read_csv) %>% dplyr::bind_rows()
 }
