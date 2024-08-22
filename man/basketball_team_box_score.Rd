@@ -4,7 +4,7 @@
 \alias{basketball_team_box_score}
 \title{Returns usports basketball team box scores}
 \usage{
-basketball_team_box_score(gender)
+basketball_team_box_score(gender, year = c())
 }
 \arguments{
 \item{gender}{Gender of athletes "m" or "w"}

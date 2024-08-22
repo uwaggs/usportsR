@@ -4,7 +4,7 @@
 \alias{basketball_pbp}
 \title{Returns usports basketball play by play data}
 \usage{
-basketball_pbp(gender)
+basketball_pbp(gender, year = c())
 }
 \arguments{
 \item{gender}{Gender of athletes "m" or "w"}

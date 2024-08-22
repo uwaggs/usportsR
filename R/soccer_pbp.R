@@ -7,11 +7,18 @@
 #' soccer_pbp("w")
 #' @export
 
-soccer_pbp <- function(gender) {
+soccer_pbp <- function(gender,year = c()) {
+  if(length(year) < 1){
+    stop("Argument `year` is missing, with no default. Please select a season")
+  }
   if (gender == "m"){
-    read_csv("https://github.com/uwaggs/usports-data/releases/download/Soccer_pbp/mens_msoc_pbp.csv")
+    seasons <- create_season(year)
+    sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/Soccer_pbp/mens_msoc_pbp_",season,".csv",sep = "")) %>%
+      lapply(read.csv) %>% dplyr::bind_rows()
   }else if(gender == "w"){
-    read_csv("https://github.com/uwaggs/usports-data/releases/download/Soccer_pbp/womens_wsoc_pbp.csv")
+    seasons <- create_season(year)
+    sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/Soccer_pbp/womens_wsoc_pbp_",season,".csv",sep = "")) %>%
+      lapply(read.csv) %>% dplyr::bind_rows()
   }else{
     stop("Invalid input: 'gender' must be one of 'm' or 'w'")
   }

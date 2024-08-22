@@ -8,3 +8,15 @@ read_csv <- function(file_url){
   tryCatch(read.csv(url(file_url)),error = function(e) data.frame()) %>%
     suppressWarnings()
 }
+
+create_season <- function(years) {
+  # Convert input to a vector if it isn't already
+  years <- as.numeric(years)
+
+  # Create the season strings
+  seasons <- paste(years, substr(years + 1, 3, 4), sep = "-")
+
+  return(seasons)
+}
+
+

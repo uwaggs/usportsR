@@ -4,7 +4,7 @@
 \alias{field_hockey_pbp}
 \title{Returns usports field hockey play by play}
 \usage{
-field_hockey_pbp()
+field_hockey_pbp(year = c())
 }
 \value{
 A Dataframe.
