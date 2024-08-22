@@ -1,8 +1,10 @@
 #' Returns usports football kicking stats
 #'
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' football_kicking()
+#' football_kicking(2018)
 #' @export
 
 football_kicking <- function(year = c()) {

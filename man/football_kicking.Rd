@@ -6,6 +6,9 @@
 \usage{
 football_kicking(year = c())
 }
+\arguments{
+\item{year}{The season(s) of interest.}
+}
 \value{
 A Dataframe.
 }
@@ -13,5 +16,5 @@ A Dataframe.
 Returns usports football kicking stats
 }
 \examples{
-football_kicking()
+football_kicking(2018)
 }

@@ -6,6 +6,9 @@
 \usage{
 football_pbp(year = c())
 }
+\arguments{
+\item{year}{The season(s) of interest.}
+}
 \value{
 A Dataframe.
 }
@@ -13,5 +16,5 @@ A Dataframe.
 Returns usports football schedule
 }
 \examples{
-football_pbp()
+football_pbp(2018)
 }

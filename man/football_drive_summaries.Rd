@@ -6,6 +6,9 @@
 \usage{
 football_drive_summaries(year = c())
 }
+\arguments{
+\item{year}{The season(s) of interest.}
+}
 \value{
 A Dataframe.
 }
@@ -13,5 +16,5 @@ A Dataframe.
 Returns usports football drive summaries
 }
 \examples{
-football_drive_summaries()
+football_drive_summaries(2018)
 }

@@ -8,6 +8,8 @@ basketball_player_box_score(gender, year = c())
 }
 \arguments{
 \item{gender}{Gender of athletes "m" or "w"}
+
+\item{year}{The season(s) of interest.}
 }
 \value{
 A Dataframe.
@@ -16,6 +18,6 @@ A Dataframe.
 Returns usports basketball players box scores
 }
 \examples{
-basketball_player_box_score("m")
-basketball_player_box_score("w")
+basketball_player_box_score("m",2018)
+basketball_player_box_score("w",2018)
 }

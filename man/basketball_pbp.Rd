@@ -8,6 +8,8 @@ basketball_pbp(gender, year = c())
 }
 \arguments{
 \item{gender}{Gender of athletes "m" or "w"}
+
+\item{year}{The season(s) of interest.}
 }
 \value{
 A Dataframe.
@@ -16,6 +18,6 @@ A Dataframe.
 Returns usports basketball play by play data
 }
 \examples{
-basketball_pbp("m")
-basketball_pbp("w")
+basketball_pbp("m",2018)
+basketball_pbp("w",2018)
 }

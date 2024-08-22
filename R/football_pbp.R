@@ -1,8 +1,10 @@
 #' Returns usports football schedule
 #'
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' football_pbp()
+#' football_pbp(2018)
 #' @export
 
 football_pbp <- function(year = c()) {

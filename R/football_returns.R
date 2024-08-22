@@ -1,8 +1,10 @@
 #' Returns usports football returns stats
 #'
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' football_returns()
+#' football_returns(2018)
 #' @export
 
 football_returns <- function(year = c()) {

@@ -1,8 +1,10 @@
 #' Returns usports football defence stats
 #'
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' football_defence()
+#' football_defence(2018)
 #' @export
 
 football_defence <- function(year = c()) {

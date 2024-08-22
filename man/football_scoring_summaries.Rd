@@ -6,6 +6,9 @@
 \usage{
 football_scoring_summaries(year = c())
 }
+\arguments{
+\item{year}{The season(s) of interest.}
+}
 \value{
 A Dataframe.
 }
@@ -13,5 +16,5 @@ A Dataframe.
 Returns usports football scoring summaries
 }
 \examples{
-football_scoring_summaries()
+football_scoring_summaries(2018)
 }

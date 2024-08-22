@@ -6,6 +6,9 @@
 \usage{
 field_hockey_pbp(year = c())
 }
+\arguments{
+\item{year}{The season(s) of interest.}
+}
 \value{
 A Dataframe.
 }
@@ -13,5 +16,5 @@ A Dataframe.
 Returns usports field hockey play by play
 }
 \examples{
-field_hockey_pbp()
+field_hockey_pbp(2018)
 }

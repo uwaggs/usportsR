@@ -6,6 +6,9 @@
 \usage{
 field_hockey_team_box_score(year = c())
 }
+\arguments{
+\item{year}{The season(s) of interest.}
+}
 \value{
 A Dataframe.
 }
@@ -13,5 +16,5 @@ A Dataframe.
 Returns usports field hockey team box scores
 }
 \examples{
-field_hockey_team_box_score()
+field_hockey_team_box_score(2018)
 }

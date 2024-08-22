@@ -1,10 +1,11 @@
 #' Returns usports basketball team box scores
 #'
 #' @param gender Gender of athletes "m" or "w"
+#' @param year The season(s) of interest.
 #' @returns A Dataframe.
 #' @examples
-#' basketball_team_box_score("m")
-#' basketball_team_box_score("w")
+#' basketball_team_box_score("m",2018)
+#' basketball_team_box_score("w",2018)
 #' @export
 
 basketball_team_box_score <- function(gender, year = c()) {

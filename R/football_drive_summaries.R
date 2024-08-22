@@ -1,8 +1,10 @@
 #' Returns usports football drive summaries
 #'
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' football_drive_summaries()
+#' football_drive_summaries(2018)
 #' @export
 
 football_drive_summaries <- function(year = c()) {

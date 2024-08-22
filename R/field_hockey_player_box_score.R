@@ -1,8 +1,10 @@
 #' Returns usports field hockey player box scores
 #'
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' field_hockey_player_box_score()
+#' field_hockey_player_box_score(2018)
 #' @export
 
 field_hockey_player_box_score <- function(year = c()) {

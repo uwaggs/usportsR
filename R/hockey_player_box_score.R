@@ -1,10 +1,12 @@
 #' Returns usports hockey player box scores
 #'
 #' @param gender Gender of athletes "m" or "w"
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' hockey_player_box_score("m")
-#' hockey_player_box_score("w")
+#' hockey_player_box_score("m",2018)
+#' hockey_player_box_score("w",2018)
 #' @export
 
 hockey_player_box_score <- function(gender,year = c()) {

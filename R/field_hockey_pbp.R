@@ -1,8 +1,10 @@
 #' Returns usports field hockey play by play
 #'
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' field_hockey_pbp()
+#' field_hockey_pbp(2018)
 #' @export
 
 field_hockey_pbp <- function(year = c()) {

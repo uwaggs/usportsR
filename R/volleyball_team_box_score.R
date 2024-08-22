@@ -1,10 +1,11 @@
 #' Returns usports volleyball team box scores
 #'
 #' @param gender Gender of athletes "m" or "w"
+#' @param year The season(s) of interest
 #' @returns A Dataframe.
 #' @examples
-#' volleyball_team_box_score("m")
-#' volleyball_team_box_score("w")
+#' volleyball_team_box_score("m",2018)
+#' volleyball_team_box_score("w",2018)
 #' @export
 
 volleyball_team_box_score <- function(gender, year = c()) {

@@ -8,6 +8,8 @@ volleyball_team_box_score(gender, year = c())
 }
 \arguments{
 \item{gender}{Gender of athletes "m" or "w"}
+
+\item{year}{The season(s) of interest}
 }
 \value{
 A Dataframe.
@@ -16,6 +18,6 @@ A Dataframe.
 Returns usports volleyball team box scores
 }
 \examples{
-volleyball_team_box_score("m")
-volleyball_team_box_score("w")
+volleyball_team_box_score("m",2018)
+volleyball_team_box_score("w",2018)
 }

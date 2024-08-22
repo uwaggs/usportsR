@@ -1,10 +1,12 @@
 #' Returns usports hockey play by play data
 #'
 #' @param gender Gender of athletes "m" or "w"
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' hockey_pbp("m")
-#' hockey_pbp("w")
+#' hockey_pbp("m",2018)
+#' hockey_pbp("w",2018)
 #' @export
 
 hockey_pbp <- function(gender, year = c()) {

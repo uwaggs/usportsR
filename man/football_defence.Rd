@@ -6,6 +6,9 @@
 \usage{
 football_defence(year = c())
 }
+\arguments{
+\item{year}{The season(s) of interest.}
+}
 \value{
 A Dataframe.
 }
@@ -13,5 +16,5 @@ A Dataframe.
 Returns usports football defence stats
 }
 \examples{
-football_defence()
+football_defence(2018)
 }

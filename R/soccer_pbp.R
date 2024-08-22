@@ -1,10 +1,12 @@
 #' Returns usports soccer play by play data
 #'
 #' @param gender Gender of athletes "m" or "w"
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' soccer_pbp("m")
-#' soccer_pbp("w")
+#' soccer_pbp("m",2018)
+#' soccer_pbp("w",2018)
 #' @export
 
 soccer_pbp <- function(gender,year = c()) {

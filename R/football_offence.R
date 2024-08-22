@@ -1,8 +1,10 @@
 #' Returns usports football offence stats
 #'
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' football_offence()
+#' football_offence(2018)
 #' @export
 
 football_offence <- function(year = c()) {

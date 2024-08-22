@@ -1,8 +1,10 @@
 #' Returns usports football scoring summaries
 #'
+#' @param year The season(s) of interest.
+#'
 #' @returns A Dataframe.
 #' @examples
-#' football_scoring_summaries()
+#' football_scoring_summaries(2018)
 #' @export
 
 football_scoring_summaries <- function(year = c()) {

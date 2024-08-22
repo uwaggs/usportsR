@@ -1,10 +1,11 @@
 #' Returns usports volleyball play by play data
 #'
 #' @param gender Gender of athletes "m" or "w"
+#' @param year The season(s) of interest.
 #' @returns A Dataframe.
 #' @examples
-#' volleyball_pbp("m")
-#' volleyball_pbp("w")
+#' volleyball_pbp("m",2018)
+#' volleyball_pbp("w",2018)
 #' @export
 
 volleyball_pbp <- function(gender, year = c()) {
