@@ -12,6 +12,6 @@ football_returns <- function(year = c()) {
     stop("Argument `year` is missing, with no default. Please select a season")
   }
   seasons <- create_season(year)
-  sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/football_offence/returns_",season,".csv",sep = "")) %>%
+  sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/football_returns/returns_",season,".csv",sep = "")) %>%
     lapply(read_csv) %>% dplyr::bind_rows()
 }
