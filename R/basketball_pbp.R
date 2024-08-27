@@ -25,4 +25,3 @@ basketball_pbp <- function(gender,year = c()) {
   }
 }
 
-basketball_pbp("w",2012)
