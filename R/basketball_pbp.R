@@ -1,8 +1,8 @@
-#' Returns usports basketball play by play data
+#' Get USPORTS basketball pbp data
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' basketball_pbp("m",2018)
 #' basketball_pbp("w",2018)

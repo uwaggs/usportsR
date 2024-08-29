@@ -2,7 +2,7 @@
 % Please edit documentation in R/volleyball_player_box_score.R
 \name{volleyball_player_box_score}
 \alias{volleyball_player_box_score}
-\title{Returns usports volleyball player box scores}
+\title{Get USPORTS volleyball player box scores}
 \usage{
 volleyball_player_box_score(gender, year = c())
 }
@@ -12,10 +12,10 @@ volleyball_player_box_score(gender, year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports volleyball player box scores
+Get USPORTS volleyball player box scores
 }
 \examples{
 volleyball_player_box_score("m",2018)

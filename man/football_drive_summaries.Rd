@@ -2,7 +2,7 @@
 % Please edit documentation in R/football_drive_summaries.R
 \name{football_drive_summaries}
 \alias{football_drive_summaries}
-\title{Returns usports football drive summaries}
+\title{Get USPORTS football drive summaries}
 \usage{
 football_drive_summaries(year = c())
 }
@@ -10,10 +10,10 @@ football_drive_summaries(year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports football drive summaries
+Get USPORTS football drive summaries
 }
 \examples{
 football_drive_summaries(2018)

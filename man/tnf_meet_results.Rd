@@ -2,15 +2,15 @@
 % Please edit documentation in R/tnf_meet_results.R
 \name{tnf_meet_results}
 \alias{tnf_meet_results}
-\title{Returns usports track and field meet results}
+\title{Get USPORTS track and field meet results}
 \usage{
 tnf_meet_results()
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports track and field meet results
+Get USPORTS track and field meet results
 }
 \examples{
 tnf_meet_results()

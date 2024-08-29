@@ -1,8 +1,8 @@
-#' Returns usports football kicking stats
+#' Get USPORTS football kicking stats
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' football_kicking(2018)
 #' @export

@@ -2,15 +2,15 @@
 % Please edit documentation in R/xc_team_rankings.R
 \name{xc_team_rankings}
 \alias{xc_team_rankings}
-\title{Returns Usports XC Team Rankings}
+\title{Get USPORTS XC Team Rankings}
 \usage{
 xc_team_rankings()
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns Usports XC Team Rankings
+Get USPORTS XC Team Rankings
 }
 \examples{
 xc_team_rankings()

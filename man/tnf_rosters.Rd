@@ -2,15 +2,15 @@
 % Please edit documentation in R/tnf_rosters.R
 \name{tnf_rosters}
 \alias{tnf_rosters}
-\title{Returns usports track and field rosters}
+\title{Get USPORTS track and field rosters}
 \usage{
 tnf_rosters()
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports track and field rosters
+Get USPORTS track and field rosters
 }
 \examples{
 tnf_rosters()

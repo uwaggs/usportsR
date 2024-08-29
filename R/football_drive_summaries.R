@@ -1,8 +1,8 @@
-#' Returns usports football drive summaries
+#' Get USPORTS football drive summaries
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' football_drive_summaries(2018)
 #' @export

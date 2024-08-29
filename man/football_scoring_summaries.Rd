@@ -2,7 +2,7 @@
 % Please edit documentation in R/football_scoring_summaries.R
 \name{football_scoring_summaries}
 \alias{football_scoring_summaries}
-\title{Returns usports football scoring summaries}
+\title{Get USPORTS football scoring summaries}
 \usage{
 football_scoring_summaries(year = c())
 }
@@ -10,10 +10,10 @@ football_scoring_summaries(year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports football scoring summaries
+Get USPORTS football scoring summaries
 }
 \examples{
 football_scoring_summaries(2018)

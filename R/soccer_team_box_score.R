@@ -1,9 +1,9 @@
-#' Returns usports soccer team box score data
+#' Get USPORTS soccer team box score data
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' soccer_team_box_score("m",2018)
 #' soccer_team_box_score("w",2018)

@@ -2,15 +2,15 @@
 % Please edit documentation in R/football_schedule.R
 \name{football_schedule}
 \alias{football_schedule}
-\title{Returns usports football schedule}
+\title{Get USPORTS football schedule}
 \usage{
 football_schedule()
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports football schedule
+Get USPORTS football schedule
 }
 \examples{
 football_schedule()

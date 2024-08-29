@@ -1,8 +1,8 @@
-#' Returns usports field hockey play by play
+#' Get USPORTS field hockey pbp
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' field_hockey_pbp(2018)
 #' @export

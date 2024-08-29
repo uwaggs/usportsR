@@ -1,8 +1,8 @@
-#' Returns usports football schedule
+#' Get USPORTS football pbp
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' football_pbp(2018)
 #' @export

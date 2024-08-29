@@ -2,7 +2,7 @@
 % Please edit documentation in R/soccer_schedule.R
 \name{soccer_schedule}
 \alias{soccer_schedule}
-\title{Returns usports soccer schedule}
+\title{Get USPORTS soccer schedule}
 \usage{
 soccer_schedule(gender)
 }
@@ -10,10 +10,10 @@ soccer_schedule(gender)
 \item{gender}{Gender of athletes "m" or "w"}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports soccer schedule
+Get USPORTS soccer schedule
 }
 \examples{
 soccer_schedule("m")

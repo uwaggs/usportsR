@@ -1,9 +1,9 @@
-#' Returns usports soccer play by play data
+#' Get USPORTS soccer play by play data
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' soccer_pbp("m",2018)
 #' soccer_pbp("w",2018)

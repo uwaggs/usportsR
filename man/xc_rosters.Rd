@@ -2,15 +2,15 @@
 % Please edit documentation in R/xc_rosters.R
 \name{xc_rosters}
 \alias{xc_rosters}
-\title{Returns Usports XC Rosters}
+\title{Get USPORTS XC Rosters}
 \usage{
 xc_rosters()
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns Usports XC Rosters
+Get USPORTS XC Rosters
 }
 \examples{
 xc_rosters()

@@ -44,10 +44,10 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 library(usportsR)
 library(dplyr)
-## basic example to find number of 40+ point games
+## basic example to find number of 40+ point games in the last decade
 
-mens_player_box_scores <- basketball_player_box_score("m")
-mens_40_pt_games <- mens_player_box_scores %>% filter(PTS >= 40)
+mens_player_box_scores <- basketball_player_box_score("m",c(2023,2022,2021,2019,2018,2017,2016,2015,2014))
+mens_40_pt_games <- mens_player_box_scores %>% filter(pts >= 40)
 head(mens_40_pt_games,10)
 ```
 
@@ -55,7 +55,7 @@ head(mens_40_pt_games,10)
 library(ggplot2)
 ## simple plot to illustrate points vs assists in 40+ point games in Usport basketball games
 
-ggplot(mens_40_pt_games,aes(x = PTS,y = AST)) + geom_point() +
+ggplot(mens_40_pt_games,aes(x = pts,y = ast)) + geom_point() +
   labs(title = "Points Vs Assists in 40 point games", x = "Points",y = "Assists")
 
 ```

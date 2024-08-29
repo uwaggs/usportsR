@@ -2,7 +2,7 @@
 % Please edit documentation in R/basketball_schedule.R
 \name{basketball_schedule}
 \alias{basketball_schedule}
-\title{Returns usports basketball schedule}
+\title{Get USPORTS basketball schedule}
 \usage{
 basketball_schedule(gender)
 }
@@ -10,10 +10,10 @@ basketball_schedule(gender)
 \item{gender}{Gender of athletes "m" or "w"}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports basketball schedule
+Get USPORTS basketball schedule
 }
 \examples{
 basketball_schedule("m")

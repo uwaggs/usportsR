@@ -1,9 +1,9 @@
-#' Returns usports hockey team box scores
+#' Get USPORTS hockey team box scores
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' hockey_team_box_score("m",2018)
 #' hockey_team_box_score("w",2018)

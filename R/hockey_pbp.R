@@ -1,9 +1,9 @@
-#' Returns usports hockey play by play data
+#' Get USPORTS hockey pbp
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' hockey_pbp("m",2018)
 #' hockey_pbp("w",2018)

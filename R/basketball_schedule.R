@@ -1,7 +1,7 @@
-#' Returns usports basketball schedule
+#' Get USPORTS basketball schedule
 #'
 #' @param gender Gender of athletes "m" or "w"
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' basketball_schedule("m")
 #' basketball_schedule("w")

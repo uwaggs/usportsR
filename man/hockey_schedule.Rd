@@ -2,7 +2,7 @@
 % Please edit documentation in R/hockey_schedule.R
 \name{hockey_schedule}
 \alias{hockey_schedule}
-\title{Returns usports hockey schedules}
+\title{Get USPORTS hockey schedules}
 \usage{
 hockey_schedule(gender)
 }
@@ -10,10 +10,10 @@ hockey_schedule(gender)
 \item{gender}{Gender of athletes "m" or "w"}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports hockey schedules
+Get USPORTS hockey schedules
 }
 \examples{
 hockey_schedule("m")

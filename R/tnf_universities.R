@@ -1,6 +1,6 @@
-#' Returns Usports track and field universities
+#' Get USPORTS track and field universities
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' tnf_universities()
 #' @export

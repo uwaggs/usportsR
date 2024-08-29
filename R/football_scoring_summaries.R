@@ -1,8 +1,8 @@
-#' Returns usports football scoring summaries
+#' Get USPORTS football scoring summaries
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' football_scoring_summaries(2018)
 #' @export

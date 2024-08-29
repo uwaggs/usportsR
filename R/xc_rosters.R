@@ -1,6 +1,6 @@
-#' Returns Usports XC Rosters
+#' Get USPORTS XC Rosters
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' xc_rosters()
 #' @export

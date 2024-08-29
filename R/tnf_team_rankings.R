@@ -1,6 +1,6 @@
-#' Returns Usports track and field team rankings
+#' Get USPORTS track and field team rankings
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' tnf_team_rankings()
 #' @export

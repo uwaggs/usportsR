@@ -2,7 +2,7 @@
 % Please edit documentation in R/football_defence.R
 \name{football_defence}
 \alias{football_defence}
-\title{Returns usports football defence stats}
+\title{Get USPORTS football defence stats}
 \usage{
 football_defence(year = c())
 }
@@ -10,10 +10,10 @@ football_defence(year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports football defence stats
+Get USPORTS football defence stats
 }
 \examples{
 football_defence(2018)

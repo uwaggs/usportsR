@@ -1,8 +1,8 @@
-#' Returns usports volleyball team box scores
+#' Get USPORTS volleyball team box scores
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' volleyball_team_box_score("m",2018)
 #' volleyball_team_box_score("w",2018)

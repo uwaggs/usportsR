@@ -1,8 +1,8 @@
-#' Returns usports football defence stats
+#' Get USPORTS football defence stats
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' football_defence(2018)
 #' @export

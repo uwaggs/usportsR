@@ -1,8 +1,8 @@
-#' Returns usports volleyball play by play data
+#' Get USPORTS volleyball play by play data
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' volleyball_pbp("m",2018)
 #' volleyball_pbp("w",2018)

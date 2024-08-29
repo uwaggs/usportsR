@@ -2,7 +2,7 @@
 % Please edit documentation in R/football_pbp.R
 \name{football_pbp}
 \alias{football_pbp}
-\title{Returns usports football schedule}
+\title{Get USPORTS football pbp}
 \usage{
 football_pbp(year = c())
 }
@@ -10,10 +10,10 @@ football_pbp(year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports football schedule
+Get USPORTS football pbp
 }
 \examples{
 football_pbp(2018)

@@ -2,7 +2,7 @@
 % Please edit documentation in R/hockey_pbp.R
 \name{hockey_pbp}
 \alias{hockey_pbp}
-\title{Returns usports hockey play by play data}
+\title{Get USPORTS hockey pbp}
 \usage{
 hockey_pbp(gender, year = c())
 }
@@ -12,10 +12,10 @@ hockey_pbp(gender, year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports hockey play by play data
+Get USPORTS hockey pbp
 }
 \examples{
 hockey_pbp("m",2018)

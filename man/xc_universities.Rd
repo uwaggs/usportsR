@@ -2,15 +2,15 @@
 % Please edit documentation in R/xc_universities.R
 \name{xc_universities}
 \alias{xc_universities}
-\title{Returns Usports XC Teams}
+\title{Get USPORTS XC Teams}
 \usage{
 xc_universities()
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns Usports XC Teams
+Get USPORTS XC Teams
 }
 \examples{
 xc_universities()

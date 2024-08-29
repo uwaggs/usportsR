@@ -1,7 +1,7 @@
-#' Returns usports rugby schedule
+#' Get USPORTS rugby schedule
 #'
 #' @param gender Gender of athletes "m" or "w"
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' rugby_schedule("m")
 #' rugby_schedule("w")

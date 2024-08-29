@@ -1,7 +1,7 @@
-#' Returns usports volleyball schedule
+#' Get USPORTS volleyball schedule
 #'
 #' @param gender Gender of athletes "m" or "w"
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' volleyball_schedule("m")
 #' volleyball_schedule("w")

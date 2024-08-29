@@ -2,15 +2,15 @@
 % Please edit documentation in R/tnf_team_rankings.R
 \name{tnf_team_rankings}
 \alias{tnf_team_rankings}
-\title{Returns Usports track and field team rankings}
+\title{Get USPORTS track and field team rankings}
 \usage{
 tnf_team_rankings()
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns Usports track and field team rankings
+Get USPORTS track and field team rankings
 }
 \examples{
 tnf_team_rankings()

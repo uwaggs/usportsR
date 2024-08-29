@@ -2,7 +2,7 @@
 % Please edit documentation in R/hockey_team_box_score.R
 \name{hockey_team_box_score}
 \alias{hockey_team_box_score}
-\title{Returns usports hockey team box scores}
+\title{Get USPORTS hockey team box scores}
 \usage{
 hockey_team_box_score(gender, year = c())
 }
@@ -12,10 +12,10 @@ hockey_team_box_score(gender, year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports hockey team box scores
+Get USPORTS hockey team box scores
 }
 \examples{
 hockey_team_box_score("m",2018)

@@ -1,8 +1,8 @@
-#' Returns usports football offence stats
+#' Get USPORTS football offence stats
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' football_offence(2018)
 #' @export

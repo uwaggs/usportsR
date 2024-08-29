@@ -2,15 +2,15 @@
 % Please edit documentation in R/xc_meet_results.R
 \name{xc_meet_results}
 \alias{xc_meet_results}
-\title{Returns Usports XC meet results}
+\title{Get USPORTS XC meet results}
 \usage{
 xc_meet_results()
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns Usports XC meet results
+Get USPORTS XC meet results
 }
 \examples{
 xc_meet_results()

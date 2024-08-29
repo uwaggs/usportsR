@@ -1,8 +1,8 @@
-#' Returns usports wrestling athletes rankings
+#' Get USPORTS wrestling athletes rankings
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param weight weight class
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' wrestling_athlete_rankings("m",90)
 #' wrestling_athlete_rankings("w",54)

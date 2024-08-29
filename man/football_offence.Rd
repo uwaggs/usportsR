@@ -2,7 +2,7 @@
 % Please edit documentation in R/football_offence.R
 \name{football_offence}
 \alias{football_offence}
-\title{Returns usports football offence stats}
+\title{Get USPORTS football offence stats}
 \usage{
 football_offence(year = c())
 }
@@ -10,10 +10,10 @@ football_offence(year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports football offence stats
+Get USPORTS football offence stats
 }
 \examples{
 football_offence(2018)

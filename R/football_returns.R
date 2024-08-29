@@ -1,8 +1,8 @@
-#' Returns usports football returns stats
+#' Get USPORTS football returns stats
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' football_returns(2018)
 #' @export

@@ -2,15 +2,15 @@
 % Please edit documentation in R/tnf_universities.R
 \name{tnf_universities}
 \alias{tnf_universities}
-\title{Returns Usports track and field universities}
+\title{Get USPORTS track and field universities}
 \usage{
 tnf_universities()
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns Usports track and field universities
+Get USPORTS track and field universities
 }
 \examples{
 tnf_universities()

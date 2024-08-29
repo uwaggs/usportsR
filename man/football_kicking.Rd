@@ -2,7 +2,7 @@
 % Please edit documentation in R/football_kicking.R
 \name{football_kicking}
 \alias{football_kicking}
-\title{Returns usports football kicking stats}
+\title{Get USPORTS football kicking stats}
 \usage{
 football_kicking(year = c())
 }
@@ -10,10 +10,10 @@ football_kicking(year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports football kicking stats
+Get USPORTS football kicking stats
 }
 \examples{
 football_kicking(2018)

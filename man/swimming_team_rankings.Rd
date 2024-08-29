@@ -2,15 +2,15 @@
 % Please edit documentation in R/swimming_team_rankings.R
 \name{swimming_team_rankings}
 \alias{swimming_team_rankings}
-\title{Returns usports swimming team rankings}
+\title{Get USPORTS swimming team rankings}
 \usage{
 swimming_team_rankings()
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports swimming team rankings
+Get USPORTS swimming team rankings
 }
 \examples{
 swimming_team_rankings()

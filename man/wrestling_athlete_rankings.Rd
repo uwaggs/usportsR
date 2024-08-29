@@ -2,7 +2,7 @@
 % Please edit documentation in R/wrestling_athlete_rankings.R
 \name{wrestling_athlete_rankings}
 \alias{wrestling_athlete_rankings}
-\title{Returns usports wrestling athletes rankings}
+\title{Get USPORTS wrestling athletes rankings}
 \usage{
 wrestling_athlete_rankings(gender, weight)
 }
@@ -12,10 +12,10 @@ wrestling_athlete_rankings(gender, weight)
 \item{weight}{weight class}
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports wrestling athletes rankings
+Get USPORTS wrestling athletes rankings
 }
 \examples{
 wrestling_athlete_rankings("m",90)

@@ -1,6 +1,6 @@
-#' Returns Usports XC meet results
+#' Get USPORTS XC meet results
 #'
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' xc_meet_results()
 #' @export

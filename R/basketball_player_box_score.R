@@ -1,8 +1,8 @@
-#' Returns usports basketball players box scores
+#' Get USPORTS basketball player box scores
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
-#' @returns A Dataframe.
+#' @returns A data frame.
 #' @examples
 #' basketball_player_box_score("m",2018)
 #' basketball_player_box_score("w",2018)

@@ -2,15 +2,15 @@
 % Please edit documentation in R/field_hockey_schedule.R
 \name{field_hockey_schedule}
 \alias{field_hockey_schedule}
-\title{Returns usports field hockey schedule}
+\title{Get USPORTS field hockey schedule}
 \usage{
 field_hockey_schedule()
 }
 \value{
-A Dataframe.
+A data frame.
 }
 \description{
-Returns usports field hockey schedule
+Get USPORTS field hockey schedule
 }
 \examples{
 field_hockey_schedule()
