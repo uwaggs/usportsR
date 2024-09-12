@@ -17,5 +17,4 @@ Get USPORTS volleyball schedule
 }
 \examples{
 volleyball_schedule("m")
-volleyball_schedule("w")
 }

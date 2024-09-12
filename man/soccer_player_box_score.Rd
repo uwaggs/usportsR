@@ -19,5 +19,4 @@ Get USPORTS soccer player box score data
 }
 \examples{
 soccer_player_box_score("m",2018)
-soccer_player_box_score("w",2018)
 }

@@ -17,5 +17,4 @@ Get USPORTS basketball schedule
 }
 \examples{
 basketball_schedule("m")
-basketball_schedule("w")
 }

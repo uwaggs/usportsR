@@ -5,8 +5,7 @@
 #'
 #' @returns A data frame.
 #' @examples
-#' hockey_pbp("m",2018)
-#' hockey_pbp("w",2018)
+#' \dontrun{hockey_pbp("m",2018)}
 #' @export
 
 hockey_pbp <- function(gender, year = c()) {

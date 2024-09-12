@@ -17,5 +17,4 @@ Get USPORTS soccer schedule
 }
 \examples{
 soccer_schedule("m")
-soccer_schedule("w")
 }

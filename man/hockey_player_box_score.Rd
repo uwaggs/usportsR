@@ -19,5 +19,4 @@ Get USPORTS hockey player box scores
 }
 \examples{
 hockey_player_box_score("m",2018)
-hockey_player_box_score("w",2018)
 }

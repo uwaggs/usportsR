@@ -19,5 +19,4 @@ Get USPORTS hockey team box scores
 }
 \examples{
 hockey_team_box_score("m",2018)
-hockey_team_box_score("w",2018)
 }

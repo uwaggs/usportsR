@@ -16,5 +16,5 @@ A data frame.
 Get USPORTS football pbp
 }
 \examples{
-football_pbp(2018)
+\dontrun{football_pbp(2018)}
 }

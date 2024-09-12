@@ -4,7 +4,7 @@
 #'
 #' @returns A data frame.
 #' @examples
-#' field_hockey_pbp(2018)
+#' \dontrun{field_hockey_pbp(2018)}
 #' @export
 
 field_hockey_pbp <- function(year = c()) {

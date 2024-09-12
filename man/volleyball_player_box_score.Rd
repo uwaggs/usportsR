@@ -19,5 +19,4 @@ Get USPORTS volleyball player box scores
 }
 \examples{
 volleyball_player_box_score("m",2018)
-volleyball_player_box_score("w",2018)
 }

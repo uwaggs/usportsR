@@ -19,5 +19,4 @@ Get USPORTS basketball player box scores
 }
 \examples{
 basketball_player_box_score("m",2018)
-basketball_player_box_score("w",2018)
 }

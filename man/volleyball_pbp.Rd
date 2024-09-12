@@ -18,6 +18,5 @@ A data frame.
 Get USPORTS volleyball play by play data
 }
 \examples{
-volleyball_pbp("m",2018)
-volleyball_pbp("w",2018)
+\dontrun{volleyball_pbp("m",2018)}
 }

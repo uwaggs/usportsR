@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # usportsR
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/uwaggs/usportsR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/uwaggs/usportsR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 `usportsR` is a package that is designed to provide users with data from all Usports

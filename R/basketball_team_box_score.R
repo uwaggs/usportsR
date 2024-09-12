@@ -5,7 +5,6 @@
 #' @returns A data frame.
 #' @examples
 #' basketball_team_box_score("m",2018)
-#' basketball_team_box_score("w",2018)
 #' @export
 
 basketball_team_box_score <- function(gender, year = c()) {

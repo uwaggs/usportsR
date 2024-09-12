@@ -18,6 +18,5 @@ A data frame.
 Get USPORTS hockey pbp
 }
 \examples{
-hockey_pbp("m",2018)
-hockey_pbp("w",2018)
+\dontrun{hockey_pbp("m",2018)}
 }

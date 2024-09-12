@@ -4,8 +4,7 @@
 #' @param year The season(s) of interest.
 #' @returns A data frame.
 #' @examples
-#' basketball_pbp("m",2018)
-#' basketball_pbp("w",2018)
+#' \dontrun{basketball_pbp("m",2018)}
 #' @export
 
 basketball_pbp <- function(gender,year = c()) {

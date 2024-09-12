@@ -4,7 +4,6 @@
 #' @returns A data frame.
 #' @examples
 #' basketball_schedule("m")
-#' basketball_schedule("w")
 #' @export
 
 basketball_schedule <- function(gender) {

@@ -17,5 +17,4 @@ Get USPORTS hockey schedules
 }
 \examples{
 hockey_schedule("m")
-hockey_schedule("w")
 }
