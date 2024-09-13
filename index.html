@@ -13,6 +13,7 @@
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Access Usports Sports Data">
 <meta name="description" content="usportsR is an R package that contains datasets from 11 Usports sanctioned sports. Usports is the governing body and leader of university sports in Canada.">
 <meta property="og:description" content="usportsR is an R package that contains datasets from 11 Usports sanctioned sports. Usports is the governing body and leader of university sports in Canada.">
+<meta property="og:image" content="https://uwaggs.github.io/usportsR/logo.svg">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -46,10 +47,12 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="usportsr">usportsR<a class="anchor" aria-label="anchor" href="#usportsr"></a>
-</h1></div>
+<div class="page-header">
+<img src="logo.svg" class="logo" alt=""><h1 id="usportsr">usportsR<a class="anchor" aria-label="anchor" href="#usportsr"></a>
+</h1>
+</div>
 <!-- badges: start -->
-<!-- badges: end -->
+
 <p><code>usportsR</code> is a package that is designed to provide users with data from all Usports sanctioned sports.</p>
 <ul>
 <li><p>The package contains U Sports data spanning over a decade of pre-season, regular season, and post-season matches.</p></li>
@@ -84,61 +87,22 @@
 <span><span class="va">mens_player_box_scores</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/basketball_player_box_score.html">basketball_player_box_score</a></span><span class="op">(</span><span class="st">"m"</span>,<span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">2023</span>,<span class="fl">2022</span>,<span class="fl">2021</span>,<span class="fl">2019</span>,<span class="fl">2018</span>,<span class="fl">2017</span>,<span class="fl">2016</span>,<span class="fl">2015</span>,<span class="fl">2014</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">mens_40_pt_games</span> <span class="op">&lt;-</span> <span class="va">mens_player_box_scores</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">pts</span> <span class="op">&gt;=</span> <span class="fl">40</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">mens_40_pt_games</span>,<span class="fl">10</span><span class="op">)</span></span>
-<span><span class="co">#&gt;                player min fgm fga three_pm three_pa ftm fta oreb dreb reb ast</span></span>
-<span><span class="co">#&gt; 1  Brandon Meiklejohn  34  13  24       10       17   5   5    0    5   5   0</span></span>
-<span><span class="co">#&gt; 2       Evan Shadkami  49  14  27        7       16   5   6    1    2   3   5</span></span>
-<span><span class="co">#&gt; 3    Malcolm Christie  39  14  26        8       17  15  15    1    1   2   1</span></span>
-<span><span class="co">#&gt; 4      Keivonte Watts  34  16  22        5        6   3   3    0    3   3   3</span></span>
-<span><span class="co">#&gt; 5            Glen Cox  35  16  29        3        5  10  11    4    7  11   5</span></span>
-<span><span class="co">#&gt; 6          Osman Omar  33  14  30        3        8  11  11    1    1   2   3</span></span>
-<span><span class="co">#&gt; 7       Inaki Alvarez  33  14  22        6        8   6   8    1    2   3   1</span></span>
-<span><span class="co">#&gt; 8        Diego Maffia  40  13  26        5       13  11  11    0    7   7   4</span></span>
-<span><span class="co">#&gt; 9      Mason Bourcier  40  14  19        7       10   6   6    0   12  12  13</span></span>
-<span><span class="co">#&gt; 10         Osman Omar  43  15  28        2       10   9  11    4    5   9   1</span></span>
-<span><span class="co">#&gt;    stl blk to pf pts starter player_number</span></span>
-<span><span class="co">#&gt; 1    0   0  2  1  41       1             6</span></span>
-<span><span class="co">#&gt; 2    1   0  4  3  40       1            22</span></span>
-<span><span class="co">#&gt; 3    1   0  2  1  51       1             6</span></span>
-<span><span class="co">#&gt; 4    1   0  2  1  40       1             2</span></span>
-<span><span class="co">#&gt; 5    4   0  5  2  45       1             5</span></span>
-<span><span class="co">#&gt; 6    0   1  1  3  42       1             0</span></span>
-<span><span class="co">#&gt; 7    1   0  4  2  40       1             3</span></span>
-<span><span class="co">#&gt; 8    3   0  2  1  42       1             6</span></span>
-<span><span class="co">#&gt; 9    2   0  6  4  41       1             1</span></span>
-<span><span class="co">#&gt; 10   3   0  2  2  41       1             0</span></span>
-<span><span class="co">#&gt;                                                             player_links</span></span>
-<span><span class="co">#&gt; 1                                                                   &lt;NA&gt;</span></span>
-<span><span class="co">#&gt; 2  https://en.usports.ca/sports/mbkb/2023-24/players?id=avs42wo2ohb400gg</span></span>
-<span><span class="co">#&gt; 3  https://en.usports.ca/sports/mbkb/2023-24/players?id=5ki3q2xwba3i2d96</span></span>
-<span><span class="co">#&gt; 4                                                                   &lt;NA&gt;</span></span>
-<span><span class="co">#&gt; 5  https://en.usports.ca/sports/mbkb/2023-24/players?id=b67zrye7aju8w55n</span></span>
-<span><span class="co">#&gt; 6  https://en.usports.ca/sports/mbkb/2022-23/players?id=29m15600sdtjhvjt</span></span>
-<span><span class="co">#&gt; 7  https://en.usports.ca/sports/mbkb/2022-23/players?id=przhh6fbi5shcsec</span></span>
-<span><span class="co">#&gt; 8                                                                   &lt;NA&gt;</span></span>
-<span><span class="co">#&gt; 9                                                                   &lt;NA&gt;</span></span>
-<span><span class="co">#&gt; 10 https://en.usports.ca/sports/mbkb/2021-22/players?id=rqbic84l8843aakc</span></span>
-<span><span class="co">#&gt;                             date       game_id       team_name  season</span></span>
-<span><span class="co">#&gt; 1   November 24, 2023  - 8:00 pm 20231124_77vc         Alberta 2023-24</span></span>
-<span><span class="co">#&gt; 2  November 25, 2023  - 02:30 PM 20231125_wr2p            York 2023-24</span></span>
-<span><span class="co">#&gt; 3   November 25, 2023  - 8:00 PM 20231125_ieb3       Dalhousie 2023-24</span></span>
-<span><span class="co">#&gt; 4               December 2, 2023 20231202_1983     Mount Royal 2023-24</span></span>
-<span><span class="co">#&gt; 5     January 6, 2024  - 6:00 PM 20240106_wfaw          Acadia 2023-24</span></span>
-<span><span class="co">#&gt; 6   November 12, 2022  - 4:00 PM 20221112_v12q     Cape Breton 2022-23</span></span>
-<span><span class="co">#&gt; 7    December 3, 2022  - 8:00 PM 20221203_1jzl         Toronto 2022-23</span></span>
-<span><span class="co">#&gt; 8   February 11, 2023  - 7:00 pm 20230211_soqw        Victoria 2022-23</span></span>
-<span><span class="co">#&gt; 9                  March 4, 2022 20220304_4m0h Trinity Western 2021-22</span></span>
-<span><span class="co">#&gt; 10  November 28, 2021  - 3:00 PM 20211128_tbdr     Cape Breton 2021-22</span></span>
-<span><span class="co">#&gt;    season_type</span></span>
-<span><span class="co">#&gt; 1            r</span></span>
-<span><span class="co">#&gt; 2            r</span></span>
-<span><span class="co">#&gt; 3            r</span></span>
-<span><span class="co">#&gt; 4            r</span></span>
-<span><span class="co">#&gt; 5            r</span></span>
-<span><span class="co">#&gt; 6            r</span></span>
-<span><span class="co">#&gt; 7            r</span></span>
-<span><span class="co">#&gt; 8            r</span></span>
-<span><span class="co">#&gt; 9            p</span></span>
-<span><span class="co">#&gt; 10           r</span></span></code></pre></div>
+<span><span class="co">#&gt; # A tibble: 10 × 25</span></span>
+<span><span class="co">#&gt;    player        min   fgm   fga three_pm three_pa   ftm   fta  oreb  dreb   reb</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;       &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;    &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;</span></span>
+<span><span class="co">#&gt;  1 Brandon Me…    34    13    24       10       17     5     5     0     5     5</span></span>
+<span><span class="co">#&gt;  2 Evan Shadk…    49    14    27        7       16     5     6     1     2     3</span></span>
+<span><span class="co">#&gt;  3 Malcolm Ch…    39    14    26        8       17    15    15     1     1     2</span></span>
+<span><span class="co">#&gt;  4 Keivonte W…    34    16    22        5        6     3     3     0     3     3</span></span>
+<span><span class="co">#&gt;  5 Glen Cox       35    16    29        3        5    10    11     4     7    11</span></span>
+<span><span class="co">#&gt;  6 Osman Omar     33    14    30        3        8    11    11     1     1     2</span></span>
+<span><span class="co">#&gt;  7 Inaki Alva…    33    14    22        6        8     6     8     1     2     3</span></span>
+<span><span class="co">#&gt;  8 Diego Maff…    40    13    26        5       13    11    11     0     7     7</span></span>
+<span><span class="co">#&gt;  9 Mason Bour…    40    14    19        7       10     6     6     0    12    12</span></span>
+<span><span class="co">#&gt; 10 Osman Omar     43    15    28        2       10     9    11     4     5     9</span></span>
+<span><span class="co">#&gt; # ℹ 14 more variables: ast &lt;int&gt;, stl &lt;int&gt;, blk &lt;int&gt;, to &lt;int&gt;, pf &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; #   pts &lt;int&gt;, starter &lt;int&gt;, player_number &lt;int&gt;, player_links &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   date &lt;chr&gt;, game_id &lt;chr&gt;, team_name &lt;chr&gt;, season &lt;chr&gt;, season_type &lt;chr&gt;</span></span></code></pre></div>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>
 <span><span class="co">## simple plot to illustrate points vs assists in 40+ point games in Usport basketball games</span></span>
@@ -181,7 +145,12 @@
 </ul>
 </div>
 
-
+<div class="dev-status">
+<h2 data-toc-skip>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/uwaggs/usportsR/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/uwaggs/usportsR/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
+</ul>
+</div>
 
   </aside>
 </div>
