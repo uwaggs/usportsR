@@ -1,6 +1,6 @@
 #' Get USPORTS track and field athlete rankings
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' tnf_athlete_rankings()
 #' @export

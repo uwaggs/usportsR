@@ -1,6 +1,6 @@
 #' Get USPORTS track and field meet results
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' tnf_meet_results()
 #' @export

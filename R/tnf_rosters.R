@@ -1,6 +1,6 @@
 #' Get USPORTS track and field rosters
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' tnf_rosters()
 #' @export

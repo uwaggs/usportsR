@@ -1,6 +1,6 @@
 #' Get USPORTS XC Rosters
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' xc_rosters()
 #' @export

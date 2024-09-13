@@ -10,7 +10,7 @@ basketball_schedule(gender)
 \item{gender}{Gender of athletes "m" or "w"}
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS basketball schedule

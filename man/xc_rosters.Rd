@@ -7,7 +7,7 @@
 xc_rosters()
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS XC Rosters

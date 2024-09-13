@@ -1,6 +1,6 @@
 #' Get USPORTS swimming team rankings
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' swimming_team_rankings()
 #' @export

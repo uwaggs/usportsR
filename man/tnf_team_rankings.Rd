@@ -7,7 +7,7 @@
 tnf_team_rankings()
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS track and field team rankings

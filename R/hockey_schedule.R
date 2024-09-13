@@ -1,7 +1,7 @@
 #' Get USPORTS hockey schedules
 #'
 #' @param gender Gender of athletes "m" or "w"
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' hockey_schedule("m")
 #' @export

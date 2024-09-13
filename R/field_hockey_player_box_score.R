@@ -2,7 +2,7 @@
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' field_hockey_player_box_score(2018)
 #' @export

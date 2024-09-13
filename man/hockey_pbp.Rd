@@ -12,11 +12,11 @@ hockey_pbp(gender, year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS hockey pbp
 }
 \examples{
-\dontrun{hockey_pbp("m",2018)}
+hockey_pbp("m",2018)
 }

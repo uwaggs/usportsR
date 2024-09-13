@@ -7,7 +7,7 @@
 field_hockey_schedule()
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS field hockey schedule

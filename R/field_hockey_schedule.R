@@ -1,6 +1,6 @@
 #' Get USPORTS field hockey schedule
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' field_hockey_schedule()
 #' @export

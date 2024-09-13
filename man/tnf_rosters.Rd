@@ -7,7 +7,7 @@
 tnf_rosters()
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS track and field rosters

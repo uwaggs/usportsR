@@ -12,7 +12,7 @@ wrestling_athlete_rankings(gender, weight)
 \item{weight}{weight class}
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS wrestling athletes rankings

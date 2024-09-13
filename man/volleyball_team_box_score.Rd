@@ -12,7 +12,7 @@ volleyball_team_box_score(gender, year = c())
 \item{year}{The season(s) of interest}
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS volleyball team box scores

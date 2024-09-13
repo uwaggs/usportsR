@@ -7,7 +7,7 @@
 tnf_universities()
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS track and field universities

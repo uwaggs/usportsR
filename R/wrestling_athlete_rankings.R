@@ -2,7 +2,7 @@
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param weight weight class
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' wrestling_athlete_rankings("m",90)
 #' wrestling_athlete_rankings("w",54)

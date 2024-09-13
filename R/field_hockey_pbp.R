@@ -2,9 +2,9 @@
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
-#' \dontrun{field_hockey_pbp(2018)}
+#' field_hockey_pbp(2018)
 #' @export
 
 field_hockey_pbp <- function(year = c()) {

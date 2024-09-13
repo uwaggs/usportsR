@@ -1,6 +1,6 @@
 #' Get USPORTS XC Teams
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' xc_universities()
 #' @export

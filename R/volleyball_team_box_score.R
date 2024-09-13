@@ -2,7 +2,7 @@
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' volleyball_team_box_score("m",2018)
 #' @export

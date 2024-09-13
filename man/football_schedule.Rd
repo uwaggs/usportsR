@@ -7,7 +7,7 @@
 football_schedule()
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS football schedule

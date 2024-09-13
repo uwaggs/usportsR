@@ -1,6 +1,6 @@
 #' Get USPORTS XC Team Rankings
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' xc_team_rankings()
 #' @export

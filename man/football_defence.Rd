@@ -10,7 +10,7 @@ football_defence(year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS football defence stats

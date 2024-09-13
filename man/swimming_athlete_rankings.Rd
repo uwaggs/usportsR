@@ -7,7 +7,7 @@
 swimming_athlete_rankings()
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS swimming athletes rankings

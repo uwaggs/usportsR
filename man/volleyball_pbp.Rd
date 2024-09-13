@@ -12,11 +12,11 @@ volleyball_pbp(gender, year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS volleyball play by play data
 }
 \examples{
-\dontrun{volleyball_pbp("m",2018)}
+volleyball_pbp("m",2018)
 }

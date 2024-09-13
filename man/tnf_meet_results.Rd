@@ -7,7 +7,7 @@
 tnf_meet_results()
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS track and field meet results

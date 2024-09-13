@@ -10,7 +10,7 @@ field_hockey_team_box_score(year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS field hockey team box scores

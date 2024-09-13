@@ -7,7 +7,7 @@
 xc_meet_results()
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS XC meet results

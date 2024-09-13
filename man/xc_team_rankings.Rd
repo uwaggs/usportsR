@@ -7,7 +7,7 @@
 xc_team_rankings()
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS XC Team Rankings

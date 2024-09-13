@@ -2,9 +2,9 @@
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
-#' \dontrun{volleyball_pbp("m",2018)}
+#' volleyball_pbp("m",2018)
 #' @export
 
 volleyball_pbp <- function(gender, year = c()) {

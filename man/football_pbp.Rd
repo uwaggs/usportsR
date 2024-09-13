@@ -10,11 +10,11 @@ football_pbp(year = c())
 \item{year}{The season(s) of interest.}
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS football pbp
 }
 \examples{
-\dontrun{football_pbp(2018)}
+football_pbp(2018)
 }

@@ -2,7 +2,7 @@
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' football_drive_summaries(2018)
 #' @export

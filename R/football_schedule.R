@@ -1,6 +1,6 @@
 #' Get USPORTS football schedule
 #'
-#' @returns A data frame.
+#' @returns A tibble.
 #' @examples
 #' football_schedule()
 #' @export

@@ -7,7 +7,7 @@
 xc_universities()
 }
 \value{
-A data frame.
+A tibble.
 }
 \description{
 Get USPORTS XC Teams
