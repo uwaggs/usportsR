@@ -2,7 +2,7 @@ pandoc: 3.1.11
 pkgdown: 2.1.0
 pkgdown_sha: ~
 articles: {}
-last_built: 2024-09-13T13:29Z
+last_built: 2024-09-13T13:47Z
 urls:
   reference: https://uwaggs.github.io/usportsR/reference
   article: https://uwaggs.github.io/usportsR/articles
