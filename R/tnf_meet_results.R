@@ -6,6 +6,6 @@
 #' @export
 
 tnf_meet_results <- function(){
-  read_csv("https://github.com/uwaggs/usports-data/releases/download/tnf_meet_results/tnf_meet_results.csv")
+  read_csv("https://github.com/uwaggs/usports-data/releases/download/tnf_meet_results/tnf_meet_results.csv") %>% tibble::tibble()
 }
 

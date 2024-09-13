@@ -11,11 +11,11 @@
 wrestling_athlete_rankings <- function(gender,weight){
   if (gender == "m"){
     df <- read_csv("https://github.com/uwaggs/usports-wrestling/releases/download/wrestling_athlete_rankings/mens_athlete.csv")
-    df <- df[df$Weight.Category == paste(as.character(weight),"kg",sep = ""),]
+    df <- df[df$Weight.Category == paste(as.character(weight),"kg",sep = ""),] %>% tibble::tibble()
     df
   }else if(gender == "w"){
     df <- read_csv("https://github.com/uwaggs/usports-wrestling/releases/download/wrestling_athlete_rankings/womens_athlete.csv")
-    df <- df[df$Weight.Category == paste(as.character(weight),"kg",sep = ""),]
+    df <- df[df$Weight.Category == paste(as.character(weight),"kg",sep = ""),] %>% tibble::tibble()
     df
   }else{
     stop("Invalid input: 'gender' must be one of 'm' or 'w'")

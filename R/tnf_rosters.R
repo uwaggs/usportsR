@@ -6,5 +6,5 @@
 #' @export
 
 tnf_rosters <- function(){
-  read_csv("https://github.com/uwaggs/usports-data/releases/download/tnf_rosters/tnf_rosters.csv")
+  read_csv("https://github.com/uwaggs/usports-data/releases/download/tnf_rosters/tnf_rosters.csv") %>% tibble::tibble()
 }

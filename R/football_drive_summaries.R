@@ -13,5 +13,5 @@ football_drive_summaries <- function(year = c()) {
   }
   seasons <- create_season(year)
   sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/fball_drive_summaries/drive_summaries_",season,".csv",sep = "")) %>%
-    lapply(read_csv) %>% dplyr::bind_rows()
+    lapply(read_csv) %>% dplyr::bind_rows() %>% tibble::tibble()
 }

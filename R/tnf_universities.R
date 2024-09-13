@@ -6,5 +6,5 @@
 #' @export
 
 tnf_universities <- function(){
-  read_csv("https://github.com/uwaggs/usports-data/releases/download/tnf_universities/tnf_universities.csv")
+  read_csv("https://github.com/uwaggs/usports-data/releases/download/tnf_universities/tnf_universities.csv") %>% tibble::tibble()
 }
