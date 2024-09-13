@@ -49,27 +49,29 @@
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">tnf_team_rankings</span><span class="op">(</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>       Season Gender Ranking      University    PTS       Recorded.Date</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1  2023/2024    Men       1         Western  93.33 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2  2023/2024    Men       2          Guelph  92.00 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3  2023/2024    Men       3        Manitoba  83.33 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4  2023/2024    Men       4         Alberta  57.50 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5  2023/2024    Men       5           Laval  53.00 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6  2023/2024    Men       6         Windsor  34.00 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7  2023/2024    Men       7         Toronto  31.00 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 8  2023/2024    Men       8          Regina  29.00 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 9  2023/2024    Men       9         Calgary  26.50 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10 2023/2024    Men      10 Trinity Western  19.50 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 11 2023/2024  Women       1         Western 120.50 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 12 2023/2024  Women       2          Guelph 118.50 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 13 2023/2024  Women       3    Saskatchewan  96.00 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 14 2023/2024  Women       4         Calgary  75.50 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 15 2023/2024  Women       5           Laval  62.00 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 16 2023/2024  Women       6         Toronto  30.00 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 17 2023/2024  Women       6         Alberta  30.00 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 18 2023/2024  Women       8         Windsor  24.50 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 19 2023/2024  Women       9        Manitoba  16.00 07/19/2024-23:15:02</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 20 2023/2024  Women      10          Regina  15.00 07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 20 × 6</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    Season    Gender Ranking University        PTS Recorded.Date      </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>     <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>           <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>              </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> 2023/2024 Men          1 Western          93.3 07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> 2023/2024 Men          2 Guelph           92   07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> 2023/2024 Men          3 Manitoba         83.3 07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> 2023/2024 Men          4 Alberta          57.5 07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> 2023/2024 Men          5 Laval            53   07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> 2023/2024 Men          6 Windsor          34   07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> 2023/2024 Men          7 Toronto          31   07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> 2023/2024 Men          8 Regina           29   07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> 2023/2024 Men          9 Calgary          26.5 07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> 2023/2024 Men         10 Trinity Western  19.5 07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">11</span> 2023/2024 Women        1 Western         120.  07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">12</span> 2023/2024 Women        2 Guelph          118.  07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">13</span> 2023/2024 Women        3 Saskatchewan     96   07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">14</span> 2023/2024 Women        4 Calgary          75.5 07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">15</span> 2023/2024 Women        5 Laval            62   07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">16</span> 2023/2024 Women        6 Toronto          30   07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">17</span> 2023/2024 Women        6 Alberta          30   07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">18</span> 2023/2024 Women        8 Windsor          24.5 07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">19</span> 2023/2024 Women        9 Manitoba         16   07/19/2024-23:15:02</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">20</span> 2023/2024 Women       10 Regina           15   07/19/2024-23:15:02</span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

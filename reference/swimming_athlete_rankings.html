@@ -49,123 +49,20 @@
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">swimming_athlete_rankings</span><span class="op">(</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>     Rank                                    Team Count Gender       Date</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1      1                   University Of Toronto   585   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2      2          University Of British Columbia   485   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3      3           University Of Calgary Varsity   409   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4      4                       McGill University   309   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5      5                    University Of Ottawa   210   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6      6 University Of Alberta Varsity Swim Team   168   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7      7             WESTERN UNIVERSITY SWIMMING   117   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 8      8                  University Of Waterloo   107   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 9      9                University Of Lethbridge    84   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10    10                     McMaster University    73   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 11    11                    UVIC VIKES Swim Team    71   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 12    12                         York University    59   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 13    13             Dalhousie University Tigers    49   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 14    14            Memorial University Seahawks    48   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 15    15              Wilfrid Laurier University    45   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 16    16               Rouge et Or Universitaire    31   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 17    17                     Carleton University    22   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 18    18                  UNIVERSITE DE MONTREAL    20   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 19    19                       Acadia University    15   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 20    20                UNIVERSITE DE SHERBROOKE    12   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 21    21   UNIVERSITE DU QUEBEC A TROIS-RIVIERES     8   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 22    21              Brock University Swim Club     8   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 23    23  University Of Manitoba Bisons Swimming     7   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 24    24                    University Of Guelph     4   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 25    24                  Mount Allison Mounties     4   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 26    26                        UNB Varsity Reds     2   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 27    27             Queens University Swim Club     0   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 28    27                          Upei Swim Club     0   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 29    27    University Of Regina Cougar Swimming     0   Male 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 30     1          University Of British Columbia   842 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 31     2                   University Of Toronto   660 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 32     3           University Of Calgary Varsity   381 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 33     4                       McGill University   329 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 34     5             WESTERN UNIVERSITY SWIMMING   123 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 35     6                  UNIVERSITE DE MONTREAL    90 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 36     7                       Acadia University    81 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 37     8                University Of Lethbridge    73 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 38     9  University Of Manitoba Bisons Swimming    59 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 39    10                     McMaster University    58 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 40    11                  University Of Waterloo    56 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 41    12             Dalhousie University Tigers    50 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 42    13                    UVIC VIKES Swim Team    48 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 43    14 University Of Alberta Varsity Swim Team    24 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 44    15               Rouge et Or Universitaire    22 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 45    16              Brock University Swim Club    20 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 46    17                UNIVERSITE DE SHERBROOKE    14 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 47    18                    University Of Guelph     8 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 48    19                    University Of Ottawa     7 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 49    20             Queens University Swim Club     4 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 50    21                  Mount Allison Mounties     3 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 51    22    University Of Regina Cougar Swimming     1 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 52    23                         York University     0 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 53    23   UNIVERSITE DU QUEBEC A TROIS-RIVIERES     0 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 54    23              Wilfrid Laurier University     0 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 55    23                          Upei Swim Club     0 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 56    23                        UNB Varsity Reds     0 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 57    23            Memorial University Seahawks     0 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 58    23                     Carleton University     0 Female 31/05/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 59     1                   University Of Toronto   585   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 60     2          University Of British Columbia   478   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 61     3           University Of Calgary Varsity   408   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 62     4                       McGill University   309   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 63     5                    University Of Ottawa   209   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 64     6 University Of Alberta Varsity Swim Team   165   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 65     7             WESTERN UNIVERSITY SWIMMING   132   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 66     8                  University Of Waterloo   107   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 67     9                University Of Lethbridge    84   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 68    10                     McMaster University    73   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 69    11                    UVIC VIKES Swim Team    69   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 70    12                         York University    59   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 71    13             Dalhousie University Tigers    49   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 72    14            Memorial University Seahawks    48   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 73    15              Wilfrid Laurier University    45   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 74    16               Rouge et Or Universitaire    31   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 75    17                     Carleton University    22   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 76    18                  UNIVERSITE DE MONTREAL    20   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 77    19                       Acadia University    15   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 78    20                UNIVERSITE DE SHERBROOKE    12   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 79    21   UNIVERSITE DU QUEBEC A TROIS-RIVIERES     8   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 80    21              Brock University Swim Club     8   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 81    23  University Of Manitoba Bisons Swimming     6   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 82    24                    University Of Guelph     4   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 83    24                  Mount Allison Mounties     4   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 84    26                        UNB Varsity Reds     2   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 85    27             Queens University Swim Club     0   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 86    27                          Upei Swim Club     0   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 87    27    University Of Regina Cougar Swimming     0   Male 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 88     1          University Of British Columbia   843 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 89     2                   University Of Toronto   660 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 90     3           University Of Calgary Varsity   381 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 91     4                       McGill University   329 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 92     5             WESTERN UNIVERSITY SWIMMING   123 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 93     6                  UNIVERSITE DE MONTREAL    89 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 94     7                       Acadia University    81 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 95     8                University Of Lethbridge    73 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 96     9  University Of Manitoba Bisons Swimming    59 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 97    10                     McMaster University    58 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 98    11                  University Of Waterloo    56 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 99    12             Dalhousie University Tigers    50 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 100   13                    UVIC VIKES Swim Team    48 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 101   14 University Of Alberta Varsity Swim Team    24 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 102   15               Rouge et Or Universitaire    22 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 103   16              Brock University Swim Club    20 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 104   17                UNIVERSITE DE SHERBROOKE    14 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 105   18                    University Of Guelph     8 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 106   19                    University Of Ottawa     7 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 107   20             Queens University Swim Club     4 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 108   21                  Mount Allison Mounties     3 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 109   22    University Of Regina Cougar Swimming     1 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 110   23                         York University     0 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 111   23   UNIVERSITE DU QUEBEC A TROIS-RIVIERES     0 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 112   23              Wilfrid Laurier University     0 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 113   23                          Upei Swim Club     0 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 114   23                        UNB Varsity Reds     0 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 115   23            Memorial University Seahawks     0 Female 26/06/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 116   23                     Carleton University     0 Female 26/06/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 116 × 5</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     Rank Team                                    Count Gender Date      </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                                   <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>     </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span>     1 University Of Toronto                     585 Male   31/05/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span>     2 University Of British Columbia            485 Male   31/05/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span>     3 University Of Calgary Varsity             409 Male   31/05/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span>     4 McGill University                         309 Male   31/05/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span>     5 University Of Ottawa                      210 Male   31/05/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span>     6 University Of Alberta Varsity Swim Team   168 Male   31/05/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span>     7 WESTERN UNIVERSITY SWIMMING               117 Male   31/05/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span>     8 University Of Waterloo                    107 Male   31/05/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span>     9 University Of Lethbridge                   84 Male   31/05/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span>    10 McMaster University                        73 Male   31/05/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 106 more rows</span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

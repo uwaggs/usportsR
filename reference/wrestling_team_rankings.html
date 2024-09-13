@@ -57,189 +57,35 @@
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">wrestling_team_rankings</span><span class="op">(</span><span class="st">"m"</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    Rank        School Points Previous.Rank Last.Updated</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1     1         Brock     81             1   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2     2  Saskatchewan     50             3   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3     3       Alberta     49             2   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4     4     Concordia     47             7   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5     5        Guelph     42             6   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6     6      McMaster     37             5   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7     7       Calgary     33             4   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 8     8      Lakehead     24             8   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 9     9 Fraser Valley     18             9   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10   10       Western     15            NR   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 11    1  Saskatchewan     71             1   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 12    2       Alberta     66             2   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 13    3         Brock     57             3   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 14    4       Calgary     48             4   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 15    5       Western     34             5   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 16    6      Lakehead     27             8   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 17    7      McMaster     20             6   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 18    8       Toronto     12             –   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 19    9       Queen’s     10             7   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 20   10        Guelph     10             9   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 21    1       Alberta     71             2   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 22    2  Saskatchewan     64             1   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 23    3         Brock     50             3   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 24    4       Calgary     44             4   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 25    5      Lakehead     39             6   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 26    6       Western     29             5   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 27    7      McMaster     27             7   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 28    8     Concordia     20             –   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 29    9       Toronto      9             8   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 30   10        Guelph      4            10   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 31    1  Saskatchewan     49             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 32    2       Alberta     46             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 33    3      McMaster     43             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 34    4       Western     43             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 35    5     Concordia     30             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 36    6      Lakehead     28             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 37    7       Calgary     26             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 38    8         Brock     21             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 39    9        Guelph     19             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 40   10          York     15             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 41    1         Brock     52             1   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 42    2       Alberta     47             3   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 43    3       Western     46             2   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 44    4       Calgary     43             4   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 45    5  Saskatchewan     43             5   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 46    6      McMaster     42             6   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 47    7     Concordia     30             7   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 48    8      Lakehead     26             8   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 49    9        Guelph     21             9   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 50   10          York     11            10   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 51    1         Brock     62             1   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 52    2       Alberta     57             2   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 53    3  Saskatchewan     47             5   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 54    4       Calgary     41             4   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 55    5     Concordia     40             7   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 56    6       Western     38             3   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 57    7      McMaster     37             6   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 58    8      Lakehead     26             8   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 59    9           UNB     11             –   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 60   10        Guelph      9             9   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 61    1       Alberta     71             1   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 62    2  Saskatchewan     47             2   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 63    3         Brock     44             4   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 64    4       Calgary     44             3   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 65    5       Western     39             5   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 66    6      McMaster     32             6   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 67    7        Guelph     22             7   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 68    8      Lakehead     20             –   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 69    9        Algoma     17             8   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 70   10     Concordia     17             9   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 71    1       Alberta     65             1   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 72    2         Brock     64             3   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 73    3  Saskatchewan     48             2   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 74    4       Calgary     43             4   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 75    5      McMaster     32             6   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 76    6       Western     29             5   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 77    7        Guelph     26             7   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 78    8      Lakehead     18             8   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 79    9        Algoma     16             9   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 80   10     Concordia     15            10   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 81    1       Alberta     72             1   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 82    2         Brock     56             2   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 83    3      McMaster     45             5   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 84    4  Saskatchewan     45             3   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 85    5       Calgary     41             4   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 86    6        Guelph     29             6   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 87    7       Western     29             7   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 88    8        Algoma     18             8   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 89    9      Lakehead     12            10   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 90   10     Concordia     11             9   01/30/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 90 × 5</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     Rank School        Points Previous.Rank Last.Updated</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>          <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span>     1 Brock             81 1             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span>     2 Saskatchewan      50 3             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span>     3 Alberta           49 2             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span>     4 Concordia         47 7             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span>     5 Guelph            42 6             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span>     6 McMaster          37 5             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span>     7 Calgary           33 4             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span>     8 Lakehead          24 8             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span>     9 Fraser Valley     18 9             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span>    10 Western           15 NR            02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 80 more rows</span></span>
 <span class="r-in"><span><span class="fu">wrestling_team_rankings</span><span class="op">(</span><span class="st">"w"</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    Rank       School Points Previous.Rank Last.Updated</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1     1        Brock     50             1   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2     2      Calgary     45             3   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 3     3 Saskatchewan     41             2   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 4     4    Concordia     32             5   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 5     5      Alberta     31             4   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 6     6      Western     28             6   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7     7       Guelph     23             8   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 8     8     Lakehead     22             7   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 9     9         York     10             9   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 10   10      Toronto      8            NR   02/01/2020</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 11    1      Alberta     53             1   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 12    2 Saskatchewan     49             2   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 13    3      Calgary     43             3   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 14    4       Guelph     37             4   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 15    5        Brock     33             5   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 16    6      Western     23             6   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 17    7     McMaster     22             8   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 18    8     Lakehead     16             7   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 19    9      Ryerson     12             –   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 20   10         York     10             9   11/16/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 21    1      Alberta     53             1   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 22    2 Saskatchewan     48             2   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 23    3      Calgary     43             3   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 24    4        Brock     32             5   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 25    5       Guelph     25             4   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 26    6      Western     25             6   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 27    7     McMaster     20             7   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 28    8    Concordia     18             –   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 29    9     Lakehead     18             8   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 30   10         York     14            10   11/22/2021</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 31    1      Alberta     60             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 32    2     McMaster     47             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 33    3 Saskatchewan     47             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 34    4      Calgary     40             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 35    5        Brock     21             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 36    6       Guelph     21             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 37    7      Western     21             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 38    8    Concordia     16             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 39    9       Algoma     11             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 40   10     Carleton      8             -   10/31/2022</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 41    1      Alberta     65             1   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 42    2      Calgary     43             2   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 43    3 Saskatchewan     40             3   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 44    4    Concordia     39             5   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 45    5        Brock     36             4   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 46    6     McMaster     36             6   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 47    7      Western     29             7   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 48    8       Guelph     24             8   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 49    9       Algoma     14             9   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 50   10      Queen’s      9             –   01/30/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 51    1      Alberta     67             1   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 52    2      Calgary     51             2   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 53    3        Brock     45             5   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 54    4     McMaster     44             6   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 55    5 Saskatchewan     44             3   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 56    6    Concordia     29             4   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 57    7       Guelph     20             8   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 58    8          UNB     18             –   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 59    9      Western     17             7   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 60   10     Lakehead      7             –   02/14/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 61    1 Saskatchewan     65             2   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 62    2      Calgary     64             1   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 63    3        Brock     56             3   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 64    4      Alberta     47             4   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 65    5     McMaster     27             5   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 66    6      Western     25             6   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 67    7       Guelph     24            10   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 68    8    Concordia     22             7   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 69    9       Algoma     13             8   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 70   10     Carleton     13             9   12/05/2023</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 71    1      Calgary     69             2   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 72    2 Saskatchewan     60             1   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 73    3      Alberta     56             4   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 74    4        Brock     54             3   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 75    5       Guelph     29             7   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 76    6     McMaster     26             5   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 77    7      Western     26             6   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 78    8    Concordia     21             8   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 79    9     Carleton     13            10   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 80   10       Algoma      9             9   01/16/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 81    1      Calgary     69             1   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 82    2 Saskatchewan     56             3   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 83    3        Brock     55             2   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 84    4      Alberta     54             4   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 85    5       Guelph     28             5   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 86    6      Western     27             7   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 87    7    Concordia     26             8   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 88    8     McMaster     25             6   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 89    9     Carleton     16             8   01/30/2024</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 90   10         York     10             –   01/30/2024</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 90 × 5</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     Rank School       Points Previous.Rank Last.Updated</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span>     1 Brock            50 1             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span>     2 Calgary          45 3             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span>     3 Saskatchewan     41 2             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span>     4 Concordia        32 5             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span>     5 Alberta          31 4             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span>     6 Western          28 6             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span>     7 Guelph           23 8             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span>     8 Lakehead         22 7             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span>     9 York             10 9             02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span>    10 Toronto           8 NR            02/01/2020  </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 80 more rows</span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
