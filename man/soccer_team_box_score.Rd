@@ -2,7 +2,7 @@
 % Please edit documentation in R/soccer_team_box_score.R
 \name{soccer_team_box_score}
 \alias{soccer_team_box_score}
-\title{Get USPORTS soccer team box score data}
+\title{Get U SPORTS soccer team box score data}
 \usage{
 soccer_team_box_score(gender, year = c())
 }
@@ -15,7 +15,7 @@ soccer_team_box_score(gender, year = c())
 A tibble.
 }
 \description{
-Get USPORTS soccer team box score data
+Get U SPORTS soccer team box score data
 }
 \examples{
 soccer_team_box_score("m",2018)

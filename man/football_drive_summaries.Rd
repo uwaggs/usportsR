@@ -2,7 +2,7 @@
 % Please edit documentation in R/football_drive_summaries.R
 \name{football_drive_summaries}
 \alias{football_drive_summaries}
-\title{Get USPORTS football drive summaries}
+\title{Get U SPORTS football drive summaries}
 \usage{
 football_drive_summaries(year = c())
 }
@@ -13,7 +13,7 @@ football_drive_summaries(year = c())
 A tibble.
 }
 \description{
-Get USPORTS football drive summaries
+Get U SPORTS football drive summaries
 }
 \examples{
 football_drive_summaries(2018)

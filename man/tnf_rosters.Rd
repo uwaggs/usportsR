@@ -2,7 +2,7 @@
 % Please edit documentation in R/tnf_rosters.R
 \name{tnf_rosters}
 \alias{tnf_rosters}
-\title{Get USPORTS track and field rosters}
+\title{Get U SPORTS track and field rosters}
 \usage{
 tnf_rosters()
 }
@@ -10,7 +10,7 @@ tnf_rosters()
 A tibble.
 }
 \description{
-Get USPORTS track and field rosters
+Get U SPORTS track and field rosters
 }
 \examples{
 tnf_rosters()

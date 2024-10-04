@@ -2,7 +2,7 @@
 % Please edit documentation in R/basketball_pbp.R
 \name{basketball_pbp}
 \alias{basketball_pbp}
-\title{Get USPORTS basketball pbp data}
+\title{Get U SPORTS basketball pbp data}
 \usage{
 basketball_pbp(gender, year = c())
 }
@@ -15,7 +15,7 @@ basketball_pbp(gender, year = c())
 A tibble.
 }
 \description{
-Get USPORTS basketball pbp data
+Get U SPORTS basketball pbp data
 }
 \examples{
 basketball_pbp("m",2018)

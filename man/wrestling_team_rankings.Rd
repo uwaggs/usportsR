@@ -2,7 +2,7 @@
 % Please edit documentation in R/wrestling_team_rankings.R
 \name{wrestling_team_rankings}
 \alias{wrestling_team_rankings}
-\title{Get USPORTS wrestling team rankings}
+\title{Get U SPORTS wrestling team rankings}
 \usage{
 wrestling_team_rankings(gender)
 }
@@ -13,7 +13,7 @@ wrestling_team_rankings(gender)
 A tibble.
 }
 \description{
-Get USPORTS wrestling team rankings
+Get U SPORTS wrestling team rankings
 }
 \examples{
 wrestling_team_rankings("m")

@@ -2,7 +2,7 @@
 % Please edit documentation in R/field_hockey_team_box_score.R
 \name{field_hockey_team_box_score}
 \alias{field_hockey_team_box_score}
-\title{Get USPORTS field hockey team box scores}
+\title{Get U SPORTS field hockey team box scores}
 \usage{
 field_hockey_team_box_score(year = c())
 }
@@ -13,7 +13,7 @@ field_hockey_team_box_score(year = c())
 A tibble.
 }
 \description{
-Get USPORTS field hockey team box scores
+Get U SPORTS field hockey team box scores
 }
 \examples{
 field_hockey_team_box_score(2018)

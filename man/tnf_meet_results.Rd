@@ -2,7 +2,7 @@
 % Please edit documentation in R/tnf_meet_results.R
 \name{tnf_meet_results}
 \alias{tnf_meet_results}
-\title{Get USPORTS track and field meet results}
+\title{Get U SPORTS track and field meet results}
 \usage{
 tnf_meet_results()
 }
@@ -10,7 +10,7 @@ tnf_meet_results()
 A tibble.
 }
 \description{
-Get USPORTS track and field meet results
+Get U SPORTS track and field meet results
 }
 \examples{
 tnf_meet_results()

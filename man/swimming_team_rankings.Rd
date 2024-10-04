@@ -2,7 +2,7 @@
 % Please edit documentation in R/swimming_team_rankings.R
 \name{swimming_team_rankings}
 \alias{swimming_team_rankings}
-\title{Get USPORTS swimming team rankings}
+\title{Get U SPORTS swimming team rankings}
 \usage{
 swimming_team_rankings()
 }
@@ -10,7 +10,7 @@ swimming_team_rankings()
 A tibble.
 }
 \description{
-Get USPORTS swimming team rankings
+Get U SPORTS swimming team rankings
 }
 \examples{
 swimming_team_rankings()

@@ -2,7 +2,7 @@
 % Please edit documentation in R/football_returns.R
 \name{football_returns}
 \alias{football_returns}
-\title{Get USPORTS football returns stats}
+\title{Get U SPORTS football returns stats}
 \usage{
 football_returns(year = c())
 }
@@ -13,7 +13,7 @@ football_returns(year = c())
 A tibble.
 }
 \description{
-Get USPORTS football returns stats
+Get U SPORTS football returns stats
 }
 \examples{
 football_returns(2018)
