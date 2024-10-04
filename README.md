@@ -9,9 +9,9 @@
 <!-- badges: end -->
 
 `usportsR` is a package that is designed to provide users with data from
-all Usports sanctioned sports.
+all U SPORTS sanctioned sports.
 
-- The package contains U Sports data spanning over a decade of
+- The package contains U SPORTS data spanning over a decade of
   pre-season, regular season, and post-season matches.
 
 - Sports currently included are Soccer, Basketball, Ice Hockey, Field
