@@ -1,4 +1,4 @@
-#' Get USPORTS basketball schedule
+#' Get U SPORTS basketball schedule
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @returns A tibble.

@@ -1,4 +1,4 @@
-#' Get USPORTS XC meet results
+#' Get U SPORTS XC meet results
 #'
 #' @returns A tibble.
 #' @examples

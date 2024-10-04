@@ -2,7 +2,7 @@
 % Please edit documentation in R/football_scoring_summaries.R
 \name{football_scoring_summaries}
 \alias{football_scoring_summaries}
-\title{Get USPORTS football scoring summaries}
+\title{Get U SPORTS football scoring summaries}
 \usage{
 football_scoring_summaries(year = c())
 }
@@ -13,7 +13,7 @@ football_scoring_summaries(year = c())
 A tibble.
 }
 \description{
-Get USPORTS football scoring summaries
+Get U SPORTS football scoring summaries
 }
 \examples{
 football_scoring_summaries(2018)

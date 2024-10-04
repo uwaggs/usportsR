@@ -2,7 +2,7 @@
 % Please edit documentation in R/hockey_pbp.R
 \name{hockey_pbp}
 \alias{hockey_pbp}
-\title{Get USPORTS hockey pbp}
+\title{Get U SPORTS hockey pbp}
 \usage{
 hockey_pbp(gender, year = c())
 }
@@ -15,7 +15,7 @@ hockey_pbp(gender, year = c())
 A tibble.
 }
 \description{
-Get USPORTS hockey pbp
+Get U SPORTS hockey pbp
 }
 \examples{
 hockey_pbp("m",2018)

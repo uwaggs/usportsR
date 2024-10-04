@@ -1,4 +1,4 @@
-#' Get USPORTS field hockey player box scores
+#' Get U SPORTS field hockey player box scores
 #'
 #' @param year The season(s) of interest.
 #'

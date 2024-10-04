@@ -1,4 +1,4 @@
-#' Get USPORTS soccer player box score data
+#' Get U SPORTS soccer player box score data
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.

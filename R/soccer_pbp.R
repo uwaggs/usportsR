@@ -1,4 +1,4 @@
-#' Get USPORTS soccer play by play data
+#' Get U SPORTS soccer play by play data
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.

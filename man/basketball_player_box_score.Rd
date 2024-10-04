@@ -2,7 +2,7 @@
 % Please edit documentation in R/basketball_player_box_score.R
 \name{basketball_player_box_score}
 \alias{basketball_player_box_score}
-\title{Get USPORTS basketball player box scores}
+\title{Get U SPORTS basketball player box scores}
 \usage{
 basketball_player_box_score(gender, year = c())
 }
@@ -15,7 +15,7 @@ basketball_player_box_score(gender, year = c())
 A tibble.
 }
 \description{
-Get USPORTS basketball player box scores
+Get U SPORTS basketball player box scores
 }
 \examples{
 basketball_player_box_score("m",2018)

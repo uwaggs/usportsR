@@ -1,11 +1,11 @@
 Package: usportsR
-Title: Access Usports Sports Data
+Title: Access U SPORTS data
 Version: 0.0.0.9000
 Authors@R: 
     c(person("Shamar", "Phillips", email = "slphilli@uwaterloo.ca", role = c("aut", "cre")),
     person("Rithika","Silva", email = "rithikasilva@outlook.com", role = "aut"),
     person("David","Awosoga", email = "david.awosoga@uwaterloo.ca",role = "aut"))
-Description: usportsR is an R package that contains datasets from 11 Usports sanctioned sports. Usports is the governing body and leader of university sports in Canada.
+Description: a package to extract and analyze data from U SPORTS, the governing body of university sport in Canada.
 License: MIT + file LICENSE
 Imports:
     dplyr,

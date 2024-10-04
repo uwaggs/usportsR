@@ -1,4 +1,4 @@
-#' Get USPORTS field hockey pbp
+#' Get U SPORTS field hockey pbp
 #'
 #' @param year The season(s) of interest.
 #'

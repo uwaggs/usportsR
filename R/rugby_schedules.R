@@ -1,4 +1,4 @@
-#' Get USPORTS rugby schedule
+#' Get U SPORTS rugby schedule
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @returns A tibble.

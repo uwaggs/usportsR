@@ -1,4 +1,4 @@
-#' Get USPORTS football drive summaries
+#' Get U SPORTS football drive summaries
 #'
 #' @param year The season(s) of interest.
 #'

@@ -2,7 +2,7 @@
 % Please edit documentation in R/rugby_schedules.R
 \name{rugby_schedule}
 \alias{rugby_schedule}
-\title{Get USPORTS rugby schedule}
+\title{Get U SPORTS rugby schedule}
 \usage{
 rugby_schedule(gender)
 }
@@ -13,7 +13,7 @@ rugby_schedule(gender)
 A tibble.
 }
 \description{
-Get USPORTS rugby schedule
+Get U SPORTS rugby schedule
 }
 \examples{
 rugby_schedule("m")

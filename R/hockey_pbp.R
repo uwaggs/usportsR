@@ -1,4 +1,4 @@
-#' Get USPORTS hockey pbp
+#' Get U SPORTS hockey pbp
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.

@@ -1,4 +1,4 @@
-#' Get USPORTS hockey player box scores
+#' Get U SPORTS hockey player box scores
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.

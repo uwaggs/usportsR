@@ -2,7 +2,7 @@
 % Please edit documentation in R/tnf_universities.R
 \name{tnf_universities}
 \alias{tnf_universities}
-\title{Get USPORTS track and field universities}
+\title{Get U SPORTS track and field universities}
 \usage{
 tnf_universities()
 }
@@ -10,7 +10,7 @@ tnf_universities()
 A tibble.
 }
 \description{
-Get USPORTS track and field universities
+Get U SPORTS track and field universities
 }
 \examples{
 tnf_universities()

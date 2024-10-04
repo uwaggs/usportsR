@@ -1,4 +1,4 @@
-#' Get USPORTS football kicking stats
+#' Get U SPORTS football kicking stats
 #'
 #' @param year The season(s) of interest.
 #'
