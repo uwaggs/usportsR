@@ -1,4 +1,4 @@
-#' Get USPORTS basketball pbp data
+#' Get U SPORTS basketball pbp data
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.

@@ -1,4 +1,4 @@
-#' Get USPORTS volleyball schedule
+#' Get U SPORTS volleyball schedule
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @returns A tibble.

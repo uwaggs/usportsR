@@ -1,4 +1,4 @@
-#' Get USPORTS track and field universities
+#' Get U SPORTS track and field universities
 #'
 #' @returns A tibble.
 #' @examples

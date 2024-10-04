@@ -1,4 +1,4 @@
-#' Get USPORTS hockey schedules
+#' Get U SPORTS hockey schedules
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @returns A tibble.

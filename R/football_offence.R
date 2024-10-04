@@ -1,4 +1,4 @@
-#' Get USPORTS football offence stats
+#' Get U SPORTS football offence stats
 #'
 #' @param year The season(s) of interest.
 #'

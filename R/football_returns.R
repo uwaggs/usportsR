@@ -1,4 +1,4 @@
-#' Get USPORTS football returns stats
+#' Get U SPORTS football returns stats
 #'
 #' @param year The season(s) of interest.
 #'

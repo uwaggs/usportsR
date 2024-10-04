@@ -1,4 +1,4 @@
-#' Get USPORTS swimming team rankings
+#' Get U SPORTS swimming team rankings
 #'
 #' @returns A tibble.
 #' @examples

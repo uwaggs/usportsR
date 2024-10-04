@@ -1,4 +1,4 @@
-#' Get USPORTS football pbp
+#' Get U SPORTS football pbp
 #'
 #' @param year The season(s) of interest.
 #'

@@ -1,4 +1,4 @@
-#' Get USPORTS basketball team box scores
+#' Get U SPORTS basketball team box scores
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.

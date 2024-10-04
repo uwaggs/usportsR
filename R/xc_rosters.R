@@ -1,4 +1,4 @@
-#' Get USPORTS XC Rosters
+#' Get U SPORTS XC Rosters
 #'
 #' @returns A tibble.
 #' @examples

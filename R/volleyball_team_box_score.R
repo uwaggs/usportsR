@@ -1,4 +1,4 @@
-#' Get USPORTS volleyball team box scores
+#' Get U SPORTS volleyball team box scores
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest

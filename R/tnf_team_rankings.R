@@ -1,4 +1,4 @@
-#' Get USPORTS track and field team rankings
+#' Get U SPORTS track and field team rankings
 #'
 #' @returns A tibble.
 #' @examples

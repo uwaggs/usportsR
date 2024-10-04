@@ -1,4 +1,4 @@
-#' Get USPORTS football scoring summaries
+#' Get U SPORTS football scoring summaries
 #'
 #' @param year The season(s) of interest.
 #'

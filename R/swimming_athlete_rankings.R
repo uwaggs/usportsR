@@ -1,4 +1,4 @@
-#' Get USPORTS swimming athletes rankings
+#' Get U SPORTS swimming athletes rankings
 #'
 #' @returns A tibble.
 #' @examples

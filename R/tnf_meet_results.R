@@ -1,4 +1,4 @@
-#' Get USPORTS track and field meet results
+#' Get U SPORTS track and field meet results
 #'
 #' @returns A tibble.
 #' @examples

@@ -1,4 +1,4 @@
-#' Get USPORTS wrestling team rankings
+#' Get U SPORTS wrestling team rankings
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @returns A tibble.

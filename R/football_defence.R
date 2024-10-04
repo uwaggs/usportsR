@@ -1,4 +1,4 @@
-#' Get USPORTS football defence stats
+#' Get U SPORTS football defence stats
 #'
 #' @param year The season(s) of interest.
 #'
