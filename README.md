@@ -71,7 +71,7 @@ head(mens_40_pt_games,10)
 
 ``` r
 library(ggplot2)
-## simple plot to illustrate points vs assists in 40+ point games in Usport basketball games
+## simple plot to illustrate points vs assists in 40+ point games in U SPORTS basketball games
 
 ggplot(mens_40_pt_games,aes(x = pts,y = ast)) + geom_point() +
   labs(title = "Points Vs Assists in 40 point games", x = "Points",y = "Assists")
