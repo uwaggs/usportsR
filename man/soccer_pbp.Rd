@@ -2,7 +2,7 @@
 % Please edit documentation in R/soccer_pbp.R
 \name{soccer_pbp}
 \alias{soccer_pbp}
-\title{Get USPORTS soccer play by play data}
+\title{Get U SPORTS soccer play by play data}
 \usage{
 soccer_pbp(gender, year = c())
 }
@@ -15,7 +15,7 @@ soccer_pbp(gender, year = c())
 A tibble.
 }
 \description{
-Get USPORTS soccer play by play data
+Get U SPORTS soccer play by play data
 }
 \examples{
 soccer_pbp("m",2018)

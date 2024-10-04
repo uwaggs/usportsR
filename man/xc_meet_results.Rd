@@ -2,7 +2,7 @@
 % Please edit documentation in R/xc_meet_results.R
 \name{xc_meet_results}
 \alias{xc_meet_results}
-\title{Get USPORTS XC meet results}
+\title{Get U SPORTS XC meet results}
 \usage{
 xc_meet_results()
 }
@@ -10,7 +10,7 @@ xc_meet_results()
 A tibble.
 }
 \description{
-Get USPORTS XC meet results
+Get U SPORTS XC meet results
 }
 \examples{
 xc_meet_results()

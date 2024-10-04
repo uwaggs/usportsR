@@ -2,7 +2,7 @@
 % Please edit documentation in R/football_offence.R
 \name{football_offence}
 \alias{football_offence}
-\title{Get USPORTS football offence stats}
+\title{Get U SPORTS football offence stats}
 \usage{
 football_offence(year = c())
 }
@@ -13,7 +13,7 @@ football_offence(year = c())
 A tibble.
 }
 \description{
-Get USPORTS football offence stats
+Get U SPORTS football offence stats
 }
 \examples{
 football_offence(2018)

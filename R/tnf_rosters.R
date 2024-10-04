@@ -1,4 +1,4 @@
-#' Get USPORTS track and field rosters
+#' Get U SPORTS track and field rosters
 #'
 #' @returns A tibble.
 #' @examples

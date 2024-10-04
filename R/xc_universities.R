@@ -1,4 +1,4 @@
-#' Get USPORTS XC Teams
+#' Get U SPORTS XC Teams
 #'
 #' @returns A tibble.
 #' @examples

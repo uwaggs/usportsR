@@ -1,4 +1,4 @@
-#' Get USPORTS field hockey schedule
+#' Get U SPORTS field hockey schedule
 #'
 #' @returns A tibble.
 #' @examples

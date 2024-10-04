@@ -1,4 +1,4 @@
-#' Get USPORTS XC Team Rankings
+#' Get U SPORTS XC Team Rankings
 #'
 #' @returns A tibble.
 #' @examples

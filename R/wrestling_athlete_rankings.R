@@ -1,4 +1,4 @@
-#' Get USPORTS wrestling athletes rankings
+#' Get U SPORTS wrestling athletes rankings
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param weight weight class

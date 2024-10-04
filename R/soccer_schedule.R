@@ -1,4 +1,4 @@
-#' Get USPORTS soccer schedule
+#' Get U SPORTS soccer schedule
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @returns A tibble.

@@ -2,7 +2,7 @@
 % Please edit documentation in R/field_hockey_schedule.R
 \name{field_hockey_schedule}
 \alias{field_hockey_schedule}
-\title{Get USPORTS field hockey schedule}
+\title{Get U SPORTS field hockey schedule}
 \usage{
 field_hockey_schedule()
 }
@@ -10,7 +10,7 @@ field_hockey_schedule()
 A tibble.
 }
 \description{
-Get USPORTS field hockey schedule
+Get U SPORTS field hockey schedule
 }
 \examples{
 field_hockey_schedule()

@@ -2,7 +2,7 @@
 % Please edit documentation in R/xc_rosters.R
 \name{xc_rosters}
 \alias{xc_rosters}
-\title{Get USPORTS XC Rosters}
+\title{Get U SPORTS XC Rosters}
 \usage{
 xc_rosters()
 }
@@ -10,7 +10,7 @@ xc_rosters()
 A tibble.
 }
 \description{
-Get USPORTS XC Rosters
+Get U SPORTS XC Rosters
 }
 \examples{
 xc_rosters()

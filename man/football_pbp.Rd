@@ -2,7 +2,7 @@
 % Please edit documentation in R/football_pbp.R
 \name{football_pbp}
 \alias{football_pbp}
-\title{Get USPORTS football pbp}
+\title{Get U SPORTS football pbp}
 \usage{
 football_pbp(year = c())
 }
@@ -13,7 +13,7 @@ football_pbp(year = c())
 A tibble.
 }
 \description{
-Get USPORTS football pbp
+Get U SPORTS football pbp
 }
 \examples{
 football_pbp(2018)

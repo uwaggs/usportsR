@@ -2,7 +2,7 @@
 % Please edit documentation in R/field_hockey_pbp.R
 \name{field_hockey_pbp}
 \alias{field_hockey_pbp}
-\title{Get USPORTS field hockey pbp}
+\title{Get U SPORTS field hockey pbp}
 \usage{
 field_hockey_pbp(year = c())
 }
@@ -13,7 +13,7 @@ field_hockey_pbp(year = c())
 A tibble.
 }
 \description{
-Get USPORTS field hockey pbp
+Get U SPORTS field hockey pbp
 }
 \examples{
 field_hockey_pbp(2018)

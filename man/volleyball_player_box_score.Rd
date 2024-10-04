@@ -2,7 +2,7 @@
 % Please edit documentation in R/volleyball_player_box_score.R
 \name{volleyball_player_box_score}
 \alias{volleyball_player_box_score}
-\title{Get USPORTS volleyball player box scores}
+\title{Get U SPORTS volleyball player box scores}
 \usage{
 volleyball_player_box_score(gender, year = c())
 }
@@ -15,7 +15,7 @@ volleyball_player_box_score(gender, year = c())
 A tibble.
 }
 \description{
-Get USPORTS volleyball player box scores
+Get U SPORTS volleyball player box scores
 }
 \examples{
 volleyball_player_box_score("m",2018)
