@@ -5,7 +5,7 @@ Authors@R:
     c(person("Shamar", "Phillips", email = "slphilli@uwaterloo.ca", role = c("aut", "cre")),
     person("Matthew","Chow", email = "mc2chow@uwaterloo.ca", role = c("aut"), comment = c(ORCID = "0009-0009-6045-6839")),
     person("Rithika","Silva", email = "rithikasilva@outlook.com", role = "aut"),
-    person("David","Awosoga", email = "david.awosoga@uwaterloo.ca",role = "aut", comment = c(ORCID = "0000-0002-2741-5770"))
+    person("David","Awosoga", email = "david.awosoga@uwaterloo.ca",role = "aut", comment = c(ORCID = "0000-0002-2741-5770")))
 Description: a package to extract and analyze data from U SPORTS, the governing body of university sport in Canada.
 License: MIT + file LICENSE
 Imports:
