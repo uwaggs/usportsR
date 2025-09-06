@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# usportsR
+# usportsR <a href="https://uwaggs.github.io/usportsR/"><img src="man/figures/logo.svg" align="right" height="139" alt="usportsR website" /></a>
 
 <!-- badges: start -->
 
@@ -9,9 +9,9 @@
 <!-- badges: end -->
 
 `usportsR` is a package that is designed to provide users with data from
-all U SPORTS sanctioned sports.
+all Usports sanctioned sports.
 
-- The package contains U SPORTS data spanning over a decade of
+- The package contains U Sports data spanning over a decade of
   pre-season, regular season, and post-season matches.
 
 - Sports currently included are Soccer, Basketball, Ice Hockey, Field
@@ -71,7 +71,7 @@ head(mens_40_pt_games,10)
 
 ``` r
 library(ggplot2)
-## simple plot to illustrate points vs assists in 40+ point games in U SPORTS basketball games
+## simple plot to illustrate points vs assists in 40+ point games in Usport basketball games
 
 ggplot(mens_40_pt_games,aes(x = pts,y = ast)) + geom_point() +
   labs(title = "Points Vs Assists in 40 point games", x = "Points",y = "Assists")
