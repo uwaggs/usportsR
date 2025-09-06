@@ -18,7 +18,7 @@
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Access U SPORTS data">
 <meta name="description" content="a package to extract and analyze data from U SPORTS, the governing body of university sport in Canada.">
 <meta property="og:description" content="a package to extract and analyze data from U SPORTS, the governing body of university sport in Canada.">
-<meta property="og:image" content="https://uwaggs.github.io/usportsR/logo.png">
+<meta property="og:image" content="https://uwaggs.github.io/usportsR/logo.svg">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -53,14 +53,15 @@
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
 <div class="page-header">
-<img src="logo.png" class="logo" alt=""><h1 id="usportsr">usportsR<a class="anchor" aria-label="anchor" href="#usportsr"></a>
+<img src="logo.svg" class="logo" alt=""><h1 id="usportsr-">usportsR 
+<a class="anchor" aria-label="anchor" href="#usportsr-"></a>
 </h1>
 </div>
 <!-- badges: start -->
 
-<p><code>usportsR</code> is a package that is designed to provide users with data from all U SPORTS sanctioned sports.</p>
+<p><code>usportsR</code> is a package that is designed to provide users with data from all Usports sanctioned sports.</p>
 <ul>
-<li><p>The package contains U SPORTS data spanning over a decade of pre-season, regular season, and post-season matches.</p></li>
+<li><p>The package contains U Sports data spanning over a decade of pre-season, regular season, and post-season matches.</p></li>
 <li><p>Sports currently included are Soccer, Basketball, Ice Hockey, Field Hockey, Track and Field Field Hockey, Football, Wrestling, Swimming and Rugby</p></li>
 <li><p>We currently provide access to box score, play-by-play, schedules and rankings data</p></li>
 </ul>
@@ -110,7 +111,7 @@
 <span><span class="co">#&gt; #   date &lt;chr&gt;, game_id &lt;chr&gt;, team_name &lt;chr&gt;, season &lt;chr&gt;, season_type &lt;chr&gt;</span></span></code></pre></div>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>
-<span><span class="co">## simple plot to illustrate points vs assists in 40+ point games in U SPORTS basketball games</span></span>
+<span><span class="co">## simple plot to illustrate points vs assists in 40+ point games in Usport basketball games</span></span>
 <span></span>
 <span><span class="fu">ggplot</span><span class="op">(</span><span class="va">mens_40_pt_games</span>,<span class="fu">aes</span><span class="op">(</span>x <span class="op">=</span> <span class="va">pts</span>,y <span class="op">=</span> <span class="va">ast</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> <span class="fu">geom_point</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">labs</span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Points Vs Assists in 40 point games"</span>, x <span class="op">=</span> <span class="st">"Points"</span>,y <span class="op">=</span> <span class="st">"Assists"</span><span class="op">)</span></span></code></pre></div>
