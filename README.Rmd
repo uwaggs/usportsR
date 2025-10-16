@@ -61,4 +61,8 @@ ggplot(mens_40_pt_games,aes(x = pts,y = ast)) + geom_point() +
 
 ```
 
+## Acknowledgement
+
+A big thanks to [Rebecca Lai](https://www.rebeccalai.net) for the awesome logo design!
+
 
