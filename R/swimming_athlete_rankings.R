@@ -1,6 +1,22 @@
 #' Get U SPORTS swimming athletes rankings
 #'
-#' @returns A tibble.
+#' @returns
+#' |Column Name        | Type |
+#' |:------------------|:-----|
+#' |Season             | chr  |
+#' |Gender             | chr  |
+#' |Rank               | int  |
+#' |Athlete.University | chr  |
+#' |Age                | chr  |
+#' |Team               | chr  |
+#' |Conference         | chr  |
+#' |Date               | chr  |
+#' |Meet               | chr  |
+#' |Time               | chr  |
+#' |FINA               | int  |
+#' |Event              | chr  |
+#' |Date.Collected     | chr  |
+#'
 #' @examples
 #' swimming_athlete_rankings()
 #' @export
