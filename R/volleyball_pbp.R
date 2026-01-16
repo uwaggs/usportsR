@@ -2,7 +2,18 @@
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
-#' @returns A tibble.
+#' @returns
+#' |Column Name   | Type |
+#' |:-------------|:-----|
+#' |event         | chr  |
+#' |home          | chr  |
+#' |away          | chr  |
+#' |score         | chr  |
+#' |set           | int  |
+#' |game_id       | chr  |
+#' |season        | chr  |
+#' |season_type   | chr  |
+#'
 #' @examples
 #' volleyball_pbp("m",2018)
 #' @export
@@ -23,3 +34,4 @@ volleyball_pbp <- function(gender, year = c()) {
     stop("Invalid input: 'gender' must be one of 'm' or 'w'")
   }
 }
+
