@@ -1,6 +1,14 @@
 #' Get U SPORTS swimming team rankings
 #'
-#' @returns A tibble.
+#' @returns
+#' |Column Name   | Type |
+#' |:-------------|:-----|
+#' |Rank          | int  |
+#' |Team          | chr  |
+#' |Count         | int  |
+#' |Gender        | chr  |
+#' |Date          | chr  |
+#'
 #' @examples
 #' swimming_team_rankings()
 #' @export
