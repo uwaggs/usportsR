@@ -1,7 +1,20 @@
 #' Get U SPORTS volleyball schedule
 #'
 #' @param gender Gender of athletes "m" or "w"
-#' @returns A tibble.
+#' @returns
+#' |Column Name   | Type      |
+#' |:------------|:----------|
+#' |league       | chr       |
+#' |season       | chr       |
+#' |game_id      | chr       |
+#' |date         | Date      |
+#' |exhibition   | lgl       |
+#' |home_team    | chr       |
+#' |away_team    | chr       |
+#' |home_score   | int       |
+#' |away_score   | int       |
+#' |game_url     | chr       |
+#'
 #' @examples
 #' volleyball_schedule("m")
 #' @export
