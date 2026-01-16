@@ -3,7 +3,30 @@
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
 #'
-#' @returns A tibble.
+#' @returns
+#' |Column Name    | Type |
+#' |:--------------|:-----|
+#' |team           | chr  |
+#' |goals_p1       | int  |
+#' |goals_p2       | int  |
+#' |goals_p3       | int  |
+#' |goals_pot      | int  |
+#' |goals_p2ot     | int  |
+#' |goals_p3ot     | int  |
+#' |goals_p4ot     | lgl  |
+#' |goals_total    | int  |
+#' |shots_1        | int  |
+#' |shots_2        | int  |
+#' |shots_3        | int  |
+#' |shots_total    | int  |
+#' |shots_ot       | int  |
+#' |shots_2ot      | int  |
+#' |shots_3ot      | int  |
+#' |shots_4ot      | lgl  |
+#' |game_id        | chr  |
+#' |season         | chr  |
+#' |season_type    | chr  |
+#'
 #' @examples
 #' hockey_team_box_score("m",2018)
 #' @export
@@ -24,3 +47,4 @@ hockey_team_box_score <- function(gender,year = c()) {
     stop("Invalid input: 'gender' must be one of 'm' or 'w'")
   }
 }
+
