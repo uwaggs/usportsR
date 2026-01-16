@@ -38,5 +38,4 @@ football_returns <- function(year = c()) {
   sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/football_returns/returns_",season,".csv",sep = "")) %>%
     lapply(read_csv) %>% dplyr::bind_rows() %>% tibble::tibble()
 }
-data=football_returns(2018)
-print(sapply(data,class))
+
