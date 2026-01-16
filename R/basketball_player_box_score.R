@@ -1,11 +1,40 @@
+
 #' Get U SPORTS basketball player box scores
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
-#' @returns A tibble.
+#' @returns
+#' |Column Name     | Type |
+#' |:----------------|:-----|
+#' |player           | chr  |
+#' |min              | int  |
+#' |fgm              | int  |
+#' |fga              | int  |
+#' |three_pm         | int  |
+#' |three_pa         | int  |
+#' |ftm              | int  |
+#' |fta              | int  |
+#' |oreb             | int  |
+#' |dreb             | int  |
+#' |reb              | int  |
+#' |ast              | int  |
+#' |stl              | int  |
+#' |blk              | int  |
+#' |to               | int  |
+#' |pf               | int  |
+#' |pts              | int  |
+#' |starter          | int  |
+#' |player_number    | int  |
+#' |player_links     | chr  |
+#' |date             | chr  |
+#' |game_id          | chr  |
+#' |team_name        | chr  |
+#' |season           | chr  |
+#' |season_type      | chr  |
 #' @examples
 #' basketball_player_box_score("m",2018)
 #' @export
+
 
 basketball_player_box_score <- function(gender,year = c()) {
   if(length(year) < 1){
@@ -23,3 +52,4 @@ basketball_player_box_score <- function(gender,year = c()) {
     stop("Invalid input: 'gender' must be one of 'm' or 'w'")
   }
 }
+
