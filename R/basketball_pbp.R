@@ -2,7 +2,21 @@
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
-#' @returns A tibble.
+#' @returns
+#' |Column Name   | Type |
+#' |:-------------|:-----|
+#' |time          | chr  |
+#' |away          | chr  |
+#' |away_score    | int  |
+#' |home_score    | int  |
+#' |home          | chr  |
+#' |quarter       | chr  |
+#' |game_id       | chr  |
+#' |away_team     | chr  |
+#' |home_team     | chr  |
+#' |season        | chr  |
+#' |season_type   | chr  |
+#'
 #' @examples
 #' basketball_pbp("m",2018)
 #' @export
