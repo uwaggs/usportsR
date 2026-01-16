@@ -2,7 +2,43 @@
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
-#' @returns A tibble.
+#' @returns
+#' |Column Name                          | Type |
+#' |:-------------------------------------|:-----|
+#' |field_goals_made                     | int  |
+#' |field_goals_attempted                | int  |
+#' |field_goal_percentage                | chr  |
+#' |three_point_field_goals_made         | int  |
+#' |three_point_field_goals_attempted    | int  |
+#' |three_point_field_goal_percentage    | chr  |
+#' |free_throws_made                     | int  |
+#' |free_throws_attempted                | int  |
+#' |free_throw_percentage                | chr  |
+#' |rebounds                             | int  |
+#' |assists                              | int  |
+#' |turnovers                            | int  |
+#' |points_off_turnovers                 | int  |
+#' |second_chance_points                 | int  |
+#' |points_in_the_paint                  | int  |
+#' |fastbreak_points                    | int  |
+#' |bench_points                         | int  |
+#' |largest_lead                         | int  |
+#' |trends                               | chr  |
+#' |team_name                            | chr  |
+#' |game_id                              | chr  |
+#' |date                                 | chr  |
+#' |q1                                   | int  |
+#' |q2                                   | int  |
+#' |q3                                   | int  |
+#' |q4                                   | int  |
+#' |total                                | int  |
+#' |time_of_largest_lead                 | chr  |
+#' |ot                                   | int  |
+#' |x2ot                                 | int  |
+#' |x3ot                                 | int  |
+#' |season                               | chr  |
+#' |season_type                          | chr  |
+#'
 #' @examples
 #' basketball_team_box_score("m",2018)
 #' @export
@@ -23,3 +59,4 @@ basketball_team_box_score <- function(gender, year = c()) {
     stop("Invalid input: 'gender' must be one of 'm' or 'w'")
   }
 }
+
