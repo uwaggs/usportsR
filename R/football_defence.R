@@ -2,7 +2,31 @@
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A tibble.
+#' @returns
+#' |Column Name   | Type |
+#' |:-------------|:-----|
+#' |number        | chr  |
+#' |player        | chr  |
+#' |solo          | int  |
+#' |ast           | int  |
+#' |total         | dbl  |
+#' |sacks         | dbl  |
+#' |sacks_yds     | int  |
+#' |tfl           | dbl  |
+#' |tfl_yds       | int  |
+#' |ff            | int  |
+#' |fr            | int  |
+#' |fr_yds        | int  |
+#' |int           | int  |
+#' |int_yds       | int  |
+#' |br_up         | int  |
+#' |blks          | int  |
+#' |qbh           | int  |
+#' |team          | chr  |
+#' |game_id       | chr  |
+#' |season        | chr  |
+#' |season_type   | chr  |
+#'
 #' @examples
 #' football_defence(2018)
 #' @export
@@ -15,3 +39,4 @@ football_defence <- function(year = c()) {
   sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/football_defence/defence_",season,".csv",sep = "")) %>%
     lapply(read_csv) %>% dplyr::bind_rows() %>% tibble::tibble()
 }
+
