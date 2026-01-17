@@ -31,6 +31,7 @@
 #' |team_name        | chr  |
 #' |season           | chr  |
 #' |season_type      | chr  |
+#'
 #' @examples
 #' basketball_player_box_score("m",2018)
 #' @export
