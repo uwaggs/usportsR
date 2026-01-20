@@ -4,7 +4,7 @@
 #'
 #' @returns
 #' |Column Name                     | Type |
-#' |:--------------------------------|:-----|
+#' |:-------------------------------|:-----|
 #' |player                          | chr  |
 #' |punting_returns_no              | int  |
 #' |punting_returns_yds             | int  |
