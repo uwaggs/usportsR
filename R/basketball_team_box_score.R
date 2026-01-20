@@ -20,7 +20,7 @@
 #' |points_off_turnovers                 | int  |
 #' |second_chance_points                 | int  |
 #' |points_in_the_paint                  | int  |
-#' |fastbreak_points                    | int  |
+#' |fastbreak_points                     | int  |
 #' |bench_points                         | int  |
 #' |largest_lead                         | int  |
 #' |trends                               | chr  |
