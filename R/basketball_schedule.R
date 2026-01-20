@@ -2,7 +2,7 @@
 #'
 #' @param gender Gender of athletes "m" or "w"
 #' @returns
-#' |Column Name   | Type      |
+#' |Column Name  | Type      |
 #' |:------------|:----------|
 #' |league       | chr       |
 #' |season       | chr       |
