@@ -1,7 +1,7 @@
 #' Get USPORTS football schedule
 #'
 #' @returns
-#' |Column Name   | Type      |
+#' |Column Name  | Type      |
 #' |:------------|:----------|
 #' |league       | chr       |
 #' |season       | chr       |

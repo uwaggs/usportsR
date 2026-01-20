@@ -3,7 +3,7 @@
 #' @param year The season(s) of interest.
 #'
 #' @returns
-#' |Column Name      | Type |
+#' |Column Name       | Type |
 #' |:-----------------|:-----|
 #' |prd               | chr  |
 #' |time              | chr  |

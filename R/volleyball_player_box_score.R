@@ -4,7 +4,7 @@
 #' @param year The season(s) of interest.
 #'
 #' @returns
-#' |Column Name     | Type |
+#' |Column Name      | Type |
 #' |:----------------|:-----|
 #' |player_number    | chr  |
 #' |player           | chr  |
