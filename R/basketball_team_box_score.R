@@ -4,7 +4,7 @@
 #' @param year The season(s) of interest.
 #' @returns
 #' |Column Name                          | Type |
-#' |:-------------------------------------|:-----|
+#' |:------------------------------------|:-----|
 #' |field_goals_made                     | int  |
 #' |field_goals_attempted                | int  |
 #' |field_goal_percentage                | chr  |
