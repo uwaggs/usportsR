@@ -1,0 +1,33 @@
+# Get U SPORTS track and field meet results
+
+Get U SPORTS track and field meet results
+
+## Usage
+
+``` r
+tnf_meet_results()
+```
+
+## Value
+
+A tibble.
+
+## Examples
+
+``` r
+tnf_meet_results()
+#> # A tibble: 8,674 × 4
+#>    Date                  Name                                Location    Results
+#>    <chr>                 <chr>                               <chr>       <chr>  
+#>  1 03/01/1975            OUAA Indoor Championships           Toronto, ON /resul…
+#>  2 02/28/1975-03/01/1975 CWUAA Indoor Championships          SK          /resul…
+#>  3 02/14/1975            OUAA Indoor Championships (paper)   Toronto, ON /resul…
+#>  4 02/28/1974            OUAA Indoor Championships           ON          /resul…
+#>  5 02/27/1974            OUAA Indoor Rankings                ON          /resul…
+#>  6 02/25/2000-02/26/2000 CWUAA Track and Field Championships Winnipeg, … /resul…
+#>  7 02/12/2000            York University Open                Toronto, ON /resul…
+#>  8 01/22/2000            McGill Invitational                 Montreal, … /resul…
+#>  9 12/22/2002            Dalhousie Christmas Meet Results    Halifax, NS /resul…
+#> 10 12/15/2002            York University Open                Toronto, ON /resul…
+#> # ℹ 8,664 more rows
+```

@@ -1,0 +1,33 @@
+# Get U SPORTS XC meet results
+
+Get U SPORTS XC meet results
+
+## Usage
+
+``` r
+xc_meet_results()
+```
+
+## Value
+
+A tibble.
+
+## Examples
+
+``` r
+xc_meet_results()
+#> # A tibble: 5,728 × 4
+#>    Date       Name                                         Location      Results
+#>    <chr>      <chr>                                        <chr>         <chr>  
+#>  1 11/09/1991 "CIAU Cross Country Champs"                  VIctoria, BC  /resul…
+#>  2 11/04/1989 "CIAU Cross Country Champs"                  Vancouver, BC /resul…
+#>  3 11/11/2000 "CIS Cross Country Champs"                   Toronto, ON   /resul…
+#>  4 11/09/2002 "CIS NATIONALS"                              London, ON    /resul…
+#>  5 10/28/2002 "AUS Cross-Country Championships "           Halifax, NS   /resul…
+#>  6 10/26/2002 "OUA  Cross Country Championships "          Guelph, ON    /resul…
+#>  7 10/19/2002 "Gryphal Open"                               Guelph, ON    /resul…
+#>  8 10/12/2002 "AUS #4 Invitational Cross Country"          Antigonish, … /resul…
+#>  9 10/10/2002 " MUSTANG OPEN - 11th Annual  2002"          Western, ON   /resul…
+#> 10 10/07/2002 "University of Sherbrooke Invitational 2002" Sherbrooke, … /resul…
+#> # ℹ 5,718 more rows
+```
