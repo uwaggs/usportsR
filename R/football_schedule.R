@@ -19,5 +19,5 @@
 #' @export
 
 football_schedule <- function() {
-  read_csv("https://github.com/uwaggs/usports-data/releases/download/football_schedule/fball_schedule.csv") %>% tibble::tibble()
+  read_csv("https://github.com/uwaggs/usports-data/releases/download/Updated_Schedules/fball_schedule.csv") %>% tibble::tibble()
 }

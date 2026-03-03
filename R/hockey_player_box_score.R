@@ -37,11 +37,11 @@ hockey_player_box_score <- function(gender,year = c()) {
   }
   if (gender == "m"){
     seasons <- create_season(year)
-    sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/hockey_player_box_score/mens_player_box_score_",season,".csv",sep = "")) %>%
+    sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/mice_player_box/mice_player_box_",season, ".csv")) %>%
       lapply(read_csv) %>% dplyr::bind_rows() %>% tibble::tibble()
   }else if(gender == "w"){
     seasons <- create_season(year)
-    sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/hockey_player_box_score/womens_player_box_score_",season,".csv",sep = "")) %>%
+    sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/wice_player_box/wice_player_box_",season, ".csv")) %>%
       lapply(read_csv) %>% dplyr::bind_rows() %>% tibble::tibble()
   }else{
     stop("Invalid input: 'gender' must be one of 'm' or 'w'")
