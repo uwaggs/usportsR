@@ -3,7 +3,7 @@
 #' @param gender Gender of athletes "m" or "w"
 #' @param year The season(s) of interest.
 #' @returns
-#' |Column Name   | Type |
+#' |Column Name   | Type | 
 #' |:-------------|:-----|
 #' |time          | chr  |
 #' |away          | chr  |
