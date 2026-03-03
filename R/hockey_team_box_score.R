@@ -46,4 +46,5 @@ hockey_team_box_score <- function(gender,year = c()) {
   }else{
     stop("Invalid input: 'gender' must be one of 'm' or 'w'")
   }
+}
 
