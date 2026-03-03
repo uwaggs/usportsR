@@ -2,7 +2,20 @@
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A tibble.
+#' @returns
+#' |Column Name       | Type |
+#' |:-----------------|:-----|
+#' |prd               | chr  |
+#' |time              | chr  |
+#' |scoring_summary   | chr  |
+#' |away_score        | int  |
+#' |home_score        | int  |
+#' |away_team         | chr  |
+#' |home_team         | chr  |
+#' |game_id           | chr  |
+#' |season            | chr  |
+#' |season_type       | chr  |
+#'
 #' @examples
 #' football_scoring_summaries(2018)
 #' @export
@@ -15,3 +28,4 @@ football_scoring_summaries <- function(year = c()) {
   sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/football_scoring_summaries/scoring_summaries_",season,".csv",sep = "")) %>%
     lapply(read_csv) %>% dplyr::bind_rows() %>% tibble::tibble()
 }
+

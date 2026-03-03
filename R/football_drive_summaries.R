@@ -2,7 +2,23 @@
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A tibble.
+#' @returns
+#' |Column Name   | Type |
+#' |:-------------|:-----|
+#' |team          | chr  |
+#' |qtr           | chr  |
+#' |start         | chr  |
+#' |poss          | chr  |
+#' |began         | chr  |
+#' |plays         | int  |
+#' |yards         | int  |
+#' |result        | chr  |
+#' |away_team     | chr  |
+#' |home_team     | chr  |
+#' |game_id       | chr  |
+#' |season        | chr  |
+#' |season_type   | chr  |
+#'
 #' @examples
 #' football_drive_summaries(2018)
 #' @export
@@ -15,3 +31,4 @@ football_drive_summaries <- function(year = c()) {
   sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/fball_drive_summaries/drive_summaries_",season,".csv",sep = "")) %>%
     lapply(read_csv) %>% dplyr::bind_rows() %>% tibble::tibble()
 }
+

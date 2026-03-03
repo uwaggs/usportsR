@@ -1,6 +1,19 @@
 #' Get USPORTS football schedule
 #'
-#' @returns A tibble.
+#' @returns
+#' |Column Name  | Type      |
+#' |:------------|:----------|
+#' |league       | chr       |
+#' |season       | chr       |
+#' |game_id      | chr       |
+#' |date         | Date      |
+#' |exhibition   | lgl       |
+#' |home_team    | chr       |
+#' |away_team    | chr       |
+#' |home_score   | int       |
+#' |away_score   | int       |
+#' |game_url     | chr       |
+#'
 #' @examples
 #' football_schedule()
 #' @export

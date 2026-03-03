@@ -2,7 +2,16 @@
 #'
 #' @param year The season(s) of interest.
 #'
-#' @returns A tibble.
+#' @returns
+#' |Column Name   | Type |
+#' |:-------------|:-----|
+#' |time          | chr  |
+#' |event         | chr  |
+#' |quarters      | int  |
+#' |game_id       | chr  |
+#' |season        | chr  |
+#' |season_type   | chr  |
+#'
 #' @examples
 #' field_hockey_pbp(2018)
 #' @export
@@ -15,3 +24,4 @@ field_hockey_pbp <- function(year = c()) {
   sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/field_hockey_pbp/womens_pbp_",season,".csv",sep = "")) %>%
     lapply(read_csv) %>% dplyr::bind_rows() %>% tibble::tibble()
 }
+
