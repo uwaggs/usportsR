@@ -22,23 +22,23 @@ A tibble.
 
 ``` r
 football_kicking(2018)
-#> # A tibble: 350 × 23
-#>    player         punting_no punting_yds punting_avg punting_lg punting_tb in_20
-#>    <chr>               <int>       <int>       <dbl>      <int>      <int> <int>
-#>  1 Mitch Kernick           4         124        31           50          0     1
-#>  2 Lucas McConne…          1          39        39           39          0     0
-#>  3 Gabe Ferraro            5         226        45.2         66          0     2
-#>  4 Caleb Girard           NA          NA        NA           NA         NA    NA
-#>  5 Adam Preocanin          7         257        36.7         47          0     0
-#>  6 M. Domagala             7         274        39.1         51          0     2
-#>  7 B. Jennings             9         330        36.7         53          0     4
-#>  8 Jarett Saumure          2          66        33           37          0     0
-#>  9 Keiran Burnham          8         323        40.4         53          0     0
-#> 10 M. Domagala             8         362        45.3         63          0     1
-#> # ℹ 340 more rows
-#> # ℹ 16 more variables: kicking_fga <int>, kicking_fgm <int>, kicking_lg <int>,
-#> #   kicking_xpa <int>, kicking_xpm <int>, kicking_rg <int>, kicking_pts <int>,
-#> #   kickoffs_no <int>, kickoffs_yds <int>, kickoffs_avg <dbl>,
-#> #   kickoffs_tb <int>, kickoffs_ob <int>, team <chr>, game_id <chr>,
-#> #   season <chr>, season_type <chr>
+#> # A tibble: 872 × 22
+#>    player         action_type field_goals_made field_goals_attempted longest
+#>    <chr>          <chr>                  <int>                 <int>   <int>
+#>  1 Adam Preocanin kicking                    1                     1      24
+#>  2 M. Domagala    kicking                    2                     2      22
+#>  3 Adam Preocanin kickoffs                  NA                    NA      NA
+#>  4 M. Domagala    kickoffs                  NA                    NA      NA
+#>  5 Adam Preocanin punting                   NA                    NA      47
+#>  6 M. Domagala    punting                   NA                    NA      51
+#>  7 Caleb Girard   kicking                   NA                    NA      NA
+#>  8 Gabe Ferraro   kicking                    1                     1      36
+#>  9 Caleb Girard   kickoffs                  NA                    NA      NA
+#> 10 Gabe Ferraro   kickoffs                  NA                    NA      NA
+#> # ℹ 862 more rows
+#> # ℹ 17 more variables: extra_points_made <int>, extra_points_attempted <int>,
+#> #   return_yards <int>, points <int>, number <int>, yards <int>, average <dbl>,
+#> #   touchbacks <int>, inside_20 <int>, out_of_bounds <int>, player_links <chr>,
+#> #   date <chr>, sport <chr>, link <chr>, game_id <chr>, season <chr>,
+#> #   path <chr>
 ```

@@ -60,21 +60,22 @@
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">basketball_pbp</span><span class="op">(</span><span class="st">"m"</span>,<span class="fl">2018</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 145,689 × 11</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    time  away    away_score home_score home  quarter game_id away_team home_team</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;int&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>     <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> 09:51 <span style="color: #949494;">""</span>               0          2 <span style="color: #949494;">"</span>AMB… 1st     201902… Manitoba  Winnipeg </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> 09:45 <span style="color: #949494;">"</span>Turno…          0          2 <span style="color: #949494;">""</span>    1st     201902… Manitoba  Winnipeg </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> 09:43 <span style="color: #949494;">""</span>               0          2 <span style="color: #949494;">"</span>Ste… 1st     201902… Manitoba  Winnipeg </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> 09:30 <span style="color: #949494;">""</span>               0          4 <span style="color: #949494;">"</span>AMB… 1st     201902… Manitoba  Winnipeg </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> 09:28 <span style="color: #949494;">"</span>Turno…          0          4 <span style="color: #949494;">""</span>    1st     201902… Manitoba  Winnipeg </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> 09:26 <span style="color: #949494;">""</span>               0          4 <span style="color: #949494;">"</span>Ste… 1st     201902… Manitoba  Winnipeg </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> 09:21 <span style="color: #949494;">""</span>               0          4 <span style="color: #949494;">"</span>MED… 1st     201902… Manitoba  Winnipeg </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> 09:21 <span style="color: #949494;">"</span>Block…          0          4 <span style="color: #949494;">""</span>    1st     201902… Manitoba  Winnipeg </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> 09:16 <span style="color: #949494;">""</span>               0          4 <span style="color: #949494;">"</span>TEA… 1st     201902… Manitoba  Winnipeg </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> 09:10 <span style="color: #949494;">""</span>               0          7 <span style="color: #949494;">"</span>AMB… 1st     201902… Manitoba  Winnipeg </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 145,679 more rows</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 2 more variables: season &lt;chr&gt;, season_type &lt;chr&gt;</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 249,506 × 15</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    quarter team     team_status time  away_score home_score last_name first_name</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;int&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>     <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>     </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> 1       Alberta  home        09:48          0          2 WILLIAMS  DWAN      </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> 1       Alberta  home        09:48          0          2 CLARKE    BRODY     </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> 1       Lethbri… away        09:36          0          2 OVERWATER ZAC       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> 1       Alberta  home        09:36          0          2 CLARKE    BRODY     </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> 1       Alberta  home        09:21          0          2 JEFFERSON TYUS      </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> 1       Lethbri… away        09:21          0          2 <span style="color: #BB0000;">NA</span>        TEAM      </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> 1       Lethbri… away        09:05          0          2 PETERSON  KYLE      </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> 1       Alberta  home        09:05          0          2 IKOMEY    IVAN      </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> 1       Alberta  home        08:55          0          2 CLARKE    BRODY     </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> 1       Lethbri… away        08:54          0          2 OVIATT    CHAD      </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 249,496 more rows</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 7 more variables: action &lt;chr&gt;, game_id &lt;chr&gt;, season &lt;chr&gt;, date &lt;chr&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   sport &lt;chr&gt;, link &lt;chr&gt;, path &lt;chr&gt;</span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

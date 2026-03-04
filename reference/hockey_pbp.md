@@ -26,18 +26,22 @@ A tibble.
 
 ``` r
 hockey_pbp("m",2018)
-#> # A tibble: 46,526 × 7
-#>    event                   period game_id away_team home_team season season_type
-#>    <chr>                   <chr>  <chr>   <chr>     <chr>     <chr>  <chr>      
-#>  1 [00:00] Logan Flodell … 1      201902… "Acadia " "StFX "   2018-… p          
-#>  2 [00:00] Chase Marchand… 1      201902… "Acadia " "StFX "   2018-… p          
-#>  3 Faceoff Stephen Harper… 1      201902… "Acadia " "StFX "   2018-… p          
-#>  4 Faceoff Stephen Harper… 1      201902… "Acadia " "StFX "   2018-… p          
-#>  5 [00:26] Shot by STFX D… 1      201902… "Acadia " "StFX "   2018-… p          
-#>  6 Faceoff Jordy Stallard… 1      201902… "Acadia " "StFX "   2018-… p          
-#>  7 [00:35] Shot by ACA Ry… 1      201902… "Acadia " "StFX "   2018-… p          
-#>  8 [00:40] Shot by ACA Jo… 1      201902… "Acadia " "StFX "   2018-… p          
-#>  9 Faceoff Stephen Harper… 1      201902… "Acadia " "StFX "   2018-… p          
-#> 10 [00:59] Shot by ACA Mi… 1      201902… "Acadia " "StFX "   2018-… p          
-#> # ℹ 46,516 more rows
+#> # A tibble: 52,713 × 22
+#>    player           time  period event     description  result save  save_player
+#>    <chr>            <chr> <chr>  <chr>     <chr>        <chr>  <chr> <chr>      
+#>  1 Logan Flodell    00:00 1st    at goalie Logan Flode… NA     NA    Logan Flod…
+#>  2 Chase Marchand   00:00 1st    at goalie Chase March… NA     NA    Chase Marc…
+#>  3 NA               00:00 1st    faceoff   Faceoff Ste… NA     NA    NA         
+#>  4 NA               00:21 1st    faceoff   Faceoff Ste… NA     NA    NA         
+#>  5 Daniel Robertson 00:26 1st    shot      Shot STFX D… MISSED save  Daniel Rob…
+#>  6 NA               00:26 1st    faceoff   Faceoff Jor… NA     NA    NA         
+#>  7 Ryan Foss        00:35 1st    shot      Shot ACA Ry… WIDE   NA    Ryan Foss  
+#>  8 Jordy Stallard   00:40 1st    shot      Shot ACA Jo… WIDE   NA    Jordy Stal…
+#>  9 NA               00:56 1st    faceoff   Faceoff Ste… NA     NA    NA         
+#> 10 Michael Zipp     00:59 1st    shot      Shot ACA Mi… WIDE   NA    Michael Zi…
+#> # ℹ 52,703 more rows
+#> # ℹ 14 more variables: faceoff_player_one <chr>, faceoff_player_two <chr>,
+#> #   primary_assist <chr>, secondary_assist <chr>, event_two <chr>,
+#> #   shot_block_by <chr>, teams <chr>, penalty_reason <chr>, date <chr>,
+#> #   sport <chr>, link <chr>, game_id <chr>, season <chr>, path <chr>
 ```

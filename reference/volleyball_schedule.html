@@ -56,22 +56,22 @@
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">volleyball_schedule</span><span class="op">(</span><span class="st">"m"</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 4,366 × 14</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    Date    Away        Away_score Home  home_score Status Notes Month box_scores</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>            <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>     </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> Wed. 21 Nipissing            3 Wate…          2 Final  OUA … Febr… <span style="color: #949494;">""</span>        </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> Thu. 22 Manitoba             3 Albe…          2 Final  CW Q… Febr… <span style="color: #949494;">""</span>        </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> Thu. 22 Brandon              0 Trin…          3 Final  CW Q… Febr… <span style="color: #949494;">"</span>https://…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> Fri. 23 UNB                  2 Laval          3 Final  Demi… Febr… <span style="color: #949494;">"</span>https://…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> Fri. 23 Montreal             1 Sher…          3 Final  Demi… Febr… <span style="color: #949494;">""</span>        </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> Fri. 23 Toronto              0 Quee…          3 Final  OUA … Febr… <span style="color: #949494;">""</span>        </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> Fri. 23 Winnipeg             3 Moun…          1 Final  CW Q… Febr… <span style="color: #949494;">"</span>https://…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> Fri. 23 Manitoba             2 Albe…          3 Final  CW Q… Febr… <span style="color: #949494;">""</span>        </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> Fri. 23 Brandon              1 Trin…          3 Final  CW Q… Febr… <span style="color: #949494;">""</span>        </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> Fri. 23 Saskatchew…          2 UBC            3 Final  CW Q… Febr… <span style="color: #949494;">""</span>        </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 4,356 more rows</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 5 more variables: conference &lt;int&gt;, division &lt;int&gt;, Exhibition &lt;int&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   PostSeason &lt;int&gt;, season &lt;chr&gt;</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 5,801 × 13</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    league season  game_id      date  exhibition conference playoffs championship</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> mvball 2009-10 <span style="color: #BB0000;">NA</span>           2009… TRUE       FALSE      FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> mvball 2009-10 <span style="color: #BB0000;">NA</span>           2009… TRUE       FALSE      FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> mvball 2009-10 <span style="color: #BB0000;">NA</span>           2009… TRUE       FALSE      FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> mvball 2009-10 <span style="color: #BB0000;">NA</span>           2009… TRUE       FALSE      FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> mvball 2009-10 20091023_ju… 2009… FALSE      TRUE       FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> mvball 2009-10 20091023_oi… 2009… FALSE      TRUE       FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> mvball 2009-10 20091023_sn… 2009… FALSE      TRUE       FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> mvball 2009-10 20091023_31… 2009… FALSE      TRUE       FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> mvball 2009-10 20091024_91… 2009… FALSE      TRUE       FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> mvball 2009-10 20091024_3r… 2009… FALSE      TRUE       FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 5,791 more rows</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 5 more variables: home_team &lt;chr&gt;, away_team &lt;chr&gt;, home_score &lt;int&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   away_score &lt;int&gt;, game_link &lt;chr&gt;</span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

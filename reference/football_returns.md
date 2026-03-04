@@ -22,24 +22,20 @@ A tibble.
 
 ``` r
 football_returns(2018)
-#> # A tibble: 786 × 20
-#>    player          punting_returns_no punting_returns_yds punting_returns_avg
-#>    <chr>                        <int>               <int>               <dbl>
-#>  1 Brandon Metz                     2                  16                 8  
-#>  2 Gordon Lam                       2                   8                 4  
-#>  3 Kiondre Smith                    3                  14                 4.7
-#>  4 Joe Diorio                       1                   0                 0  
-#>  5 Mitch Kernick                   NA                  NA                NA  
-#>  6 Tyler Ternowski                 NA                  NA                NA  
-#>  7 A.j. Chase                      NA                  NA                NA  
-#>  8 A. Cimankinda                   NA                  NA                NA  
-#>  9 Andy Melo                       NA                  NA                NA  
-#> 10 Blake Rennick                    5                  36                 7.2
-#> # ℹ 776 more rows
-#> # ℹ 16 more variables: punting_returns_lg <int>, punting_returns_td <int>,
-#> #   kickoff_returns_no <int>, kickoff_returns_yds <int>,
-#> #   kickoff_returns_avg <dbl>, kickoff_returns_lg <int>,
-#> #   kickoff_returns_td <int>, interception_returns_no <int>,
-#> #   interception_returns_yds <int>, interception_returns_avg <dbl>,
-#> #   interception_returns_lg <int>, interception_returns_td <int>, team <chr>, …
+#> # A tibble: 1,297 × 14
+#>    player return_type number yards average longest touchdowns player_links date 
+#>    <chr>  <chr>        <int> <int>   <dbl>   <int>      <int> <chr>        <chr>
+#>  1 Justi… kickoff_re…      3    44    14.7      21          0 NA           2018…
+#>  2 C. Ma… kickoff_re…      3    47    15.7      22          0 https://en.… 2018…
+#>  3 Khali… kickoff_re…      2    44    22        30          0 https://en.… 2018…
+#>  4 Mitch… punt_retur…      2     3     1.5       4          0 NA           2018…
+#>  5 Quint… punt_retur…      2    13     6.5       9          0 https://en.… 2018…
+#>  6 C. Ma… punt_retur…      2     4     2         4          0 https://en.… 2018…
+#>  7 Jay D… punt_retur…      1     0     0         0          0 https://en.… 2018…
+#>  8 Mitch… kickoff_re…      5    93    18.6      22          0 https://en.… 2018…
+#>  9 Tyler… kickoff_re…      2    37    18.5      26          0 https://en.… 2018…
+#> 10 Kiond… kickoff_re…      3    47    15.7      21          0 https://en.… 2018…
+#> # ℹ 1,287 more rows
+#> # ℹ 5 more variables: sport <chr>, link <chr>, game_id <chr>, season <chr>,
+#> #   path <chr>
 ```

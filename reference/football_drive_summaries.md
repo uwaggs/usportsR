@@ -22,19 +22,20 @@ A tibble.
 
 ``` r
 football_drive_summaries(2018)
-#> # A tibble: 3,952 × 13
-#>    team   qtr   start poss  began plays yards result away_team home_team game_id
-#>    <chr>  <chr> <chr> <chr> <chr> <int> <int> <chr>  <chr>     <chr>     <chr>  
-#>  1 Guelph 1     15:00 5:20  GUE26    10    55 FG     "Waterlo… "Guelph " 201810…
-#>  2 Water… 1     09:40 1:22  WAT35     3    -9 FUMB   "Waterlo… "Guelph " 201810…
-#>  3 Guelph 1     08:18 0:40  WAT26     2    26 TD     "Waterlo… "Guelph " 201810…
-#>  4 Water… 1     07:32 0:42  WAT28     2    82 TD     "Waterlo… "Guelph " 201810…
-#>  5 Guelph 1     06:48 4:21  GUE41     7    69 TD     "Waterlo… "Guelph " 201810…
-#>  6 Water… 1     02:22 2:35  WAT35     5    17 PUNT   "Waterlo… "Guelph " 201810…
-#>  7 Guelph 2     14:47 1:13  GUE35     2     0 PUNT   "Waterlo… "Guelph " 201810…
-#>  8 Water… 2     13:34 3:07  WAT42     6    68 TD     "Waterlo… "Guelph " 201810…
-#>  9 Guelph 2     10:20 4:14  GUE31     8    79 TD     "Waterlo… "Guelph " 201810…
-#> 10 Water… 2     05:59 1:11  WAT36     2    -5 PUNT   "Waterlo… "Guelph " 201810…
-#> # ℹ 3,942 more rows
-#> # ℹ 2 more variables: season <chr>, season_type <chr>
+#> # A tibble: 4,663 × 16
+#>    team  quarter start possessions began plays yards result drive_id date  sport
+#>    <chr>   <int> <chr> <chr>       <chr> <int> <int> <chr>     <int> <chr> <chr>
+#>  1 McMa…       1 15:00 5:43        MAC35    10    58 FG            1 2018… fball
+#>  2 Carl…       1 09:17 0:55        CAR35     3   -35 SAF           2 2018… fball
+#>  3 McMa…       1 08:22 2:44        MAC35     4     5 PUNT          3 2018… fball
+#>  4 Carl…       1 05:38 1:41        CAR35     3    75 TD            4 2018… fball
+#>  5 McMa…       1 03:52 3:00        MAC25     5    18 PUNT          5 2018… fball
+#>  6 Carl…       1 00:52 6:09        CAR35    13    62 FG            6 2018… fball
+#>  7 McMa…       2 09:43 1:08        MAC35     2   -10 PUNT          7 2018… fball
+#>  8 Carl…       2 08:35 3:16        CAR53     5    57 TD            8 2018… fball
+#>  9 McMa…       2 05:16 1:19        MAC09     2     4 PUNT          9 2018… fball
+#> 10 Carl…       2 03:57 1:33        CAR50     4    45 FG           10 2018… fball
+#> # ℹ 4,653 more rows
+#> # ℹ 5 more variables: link <chr>, game_id <chr>, season <chr>,
+#> #   drive_start <int>, path <chr>
 ```

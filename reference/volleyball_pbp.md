@@ -26,18 +26,21 @@ A tibble.
 
 ``` r
 volleyball_pbp("m",2018)
-#> # A tibble: 50,095 × 8
-#>    event                      home  away  score   set game_id season season_type
-#>    <chr>                      <chr> <chr> <chr> <int> <chr>   <chr>  <chr>      
-#>  1 CGY starters: Blain Crans… BRNM  CGY   ""        1 201902… 2018-… p          
-#>  2 BRNM starters: Reece Dixo… BRNM  CGY   ""        1 201902… 2018-… p          
-#>  3 CGY subs: Kyle Hall.       BRNM  CGY   ""        1 201902… 2018-… p          
-#>  4 [Mason Metcalf] Attack er… BRNM  CGY   "1-0"     1 201902… 2018-… p          
-#>  5 [Liam Laidlaw] Kill by Ti… BRNM  CGY   "2-0"     1 201902… 2018-… p          
-#>  6 [Liam Laidlaw] Kill by Ro… BRNM  CGY   "2-1"     1 201902… 2018-… p          
-#>  7 [Elliott Viles] Service a… BRNM  CGY   "2-2"     1 201902… 2018-… p          
-#>  8 [Elliott Viles] Kill by S… BRNM  CGY   "2-3"     1 201902… 2018-… p          
-#>  9 [Elliott Viles] Attack er… BRNM  CGY   "2-4"     1 201902… 2018-… p          
-#> 10 [Elliott Viles] Attack er… BRNM  CGY   "3-4"     1 201902… 2018-… p          
-#> # ℹ 50,085 more rows
+#> # A tibble: 103,527 × 19
+#>    date     sport link  game_id season   set away_score home_score server player
+#>    <chr>    <chr> <chr> <chr>   <chr>  <int>      <int>      <int> <chr>  <chr> 
+#>  1 2018-09… mvba… http… 201809… 2018-…     1         NA         NA NA      NA   
+#>  2 2018-09… mvba… http… 201809… 2018-…     1         NA         NA NA      NA   
+#>  3 2018-09… mvba… http… 201809… 2018-…     1          1          0 Samue… "Max …
+#>  4 2018-09… mvba… http… 201809… 2018-…     1          1          1 Samue…  NA   
+#>  5 2018-09… mvba… http… 201809… 2018-…     1          1          2 Max H…  NA   
+#>  6 2018-09… mvba… http… 201809… 2018-…     1          1          3 Max H… "Sam …
+#>  7 2018-09… mvba… http… 201809… 2018-…     1          2          3 Max H…  NA   
+#>  8 2018-09… mvba… http… 201809… 2018-…     1          3          3 Ryan … "Matt…
+#>  9 2018-09… mvba… http… 201809… 2018-…     1          3          4 Ryan …  NA   
+#> 10 2018-09… mvba… http… 201809… 2018-…     1          4          4 Johns… "Tim …
+#> # ℹ 103,517 more rows
+#> # ℹ 9 more variables: event <chr>, assist <chr>, point_by_error <chr>,
+#> #   block_player_one <chr>, block_player_two <chr>, block_player_three <chr>,
+#> #   team_point <chr>, desc <chr>, path <chr>
 ```

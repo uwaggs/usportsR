@@ -26,24 +26,24 @@ A tibble.
 
 ``` r
 basketball_team_box_score("m",2018)
-#> # A tibble: 586 × 33
-#>    field_goals_made field_goals_attempted field_goal_percentage
-#>               <int>                 <int> <chr>                
-#>  1               26                    69 37.7%                
-#>  2               37                    72 51.4%                
-#>  3               19                    56 33.9%                
-#>  4               25                    71 35.2%                
-#>  5               29                    70 41.4%                
-#>  6               37                    76 48.7%                
-#>  7               21                    75 28.0%                
-#>  8               41                    78 52.6%                
-#>  9               26                    73 35.6%                
-#> 10               37                    82 45.1%                
-#> # ℹ 576 more rows
-#> # ℹ 30 more variables: three_point_field_goals_made <int>,
-#> #   three_point_field_goals_attempted <int>,
-#> #   three_point_field_goal_percentage <chr>, free_throws_made <int>,
-#> #   free_throws_attempted <int>, free_throw_percentage <chr>, rebounds <int>,
-#> #   assists <int>, turnovers <int>, points_off_turnovers <int>,
-#> #   second_chance_points <int>, points_in_the_paint <int>, …
+#> # A tibble: 986 × 30
+#>    team       field_goals_made field_goals_attempted field_goal_percent
+#>    <chr>                 <int>                 <int>              <dbl>
+#>  1 Lethbridge               29                    67              0.433
+#>  2 Alberta                  30                    73              0.411
+#>  3 Lethbridge               21                    69              0.304
+#>  4 Alberta                  31                    67              0.463
+#>  5 Lethbridge               22                    59              0.373
+#>  6 Alberta                  27                    57              0.474
+#>  7 UBC                      25                    59              0.424
+#>  8 Alberta                  21                    69              0.304
+#>  9 UBC                      27                    72              0.375
+#> 10 Alberta                  32                    67              0.478
+#> # ℹ 976 more rows
+#> # ℹ 26 more variables: three_pointers_made <int>,
+#> #   three_pointers_attempted <int>, three_point_percentage <dbl>,
+#> #   free_throws_made <int>, free_throws_attempted <int>,
+#> #   free_throw_percent <dbl>, rebounds <int>, assists <int>, turnovers <int>,
+#> #   points_off_turnovers <int>, second_chance_points <int>,
+#> #   points_in_the_paint <int>, fastbreak_points <int>, bench_points <int>, …
 ```

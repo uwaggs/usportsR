@@ -22,21 +22,24 @@ A tibble.
 
 ``` r
 football_defence(2018)
-#> # A tibble: 5,002 × 21
-#>    number player      solo   ast total sacks sacks_yds   tfl tfl_yds    ff    fr
-#>    <chr>  <chr>      <int> <int> <dbl> <dbl>     <int> <dbl>   <int> <int> <int>
-#>  1 38     Michael R…     8     3   9.5     0         0     0       0     0     0
-#>  2 44     Jack Hins…     7     2   8       0         0     1       1     0     0
-#>  3 24     Andy Melo      3     3   4.5     0         0     0       0     0     0
-#>  4 48     Mac Mooney     4     0   4       0         0     0       0     0     0
-#>  5 92     G. Pallot…     3     1   3.5     0         0     2       4     0     0
-#>  6 21     D. Jupite…     2     2   3       0         0     0       0     0     0
-#>  7 66     Cody Whet…     3     0   3       0         0     0       0     0     0
-#>  8 23     Lautaro F…     2     1   2.5     0         0     0       0     0     0
-#>  9 46     Kurtis Gr…     2     1   2.5     0         0     0       0     1     0
-#> 10 1      Lucas Mer…     1     1   1.5     0         0     0       0     0     0
-#> # ℹ 4,992 more rows
-#> # ℹ 10 more variables: fr_yds <int>, int <int>, int_yds <int>, br_up <int>,
-#> #   blks <int>, qbh <int>, team <chr>, game_id <chr>, season <chr>,
-#> #   season_type <chr>
+#> # A tibble: 5,421 × 24
+#>    number player       solo sack_assists total sacks sack_yards tackles_for_loss
+#>    <chr>  <chr>       <int>        <int> <dbl> <dbl>      <int>            <dbl>
+#>  1 35     Noah Halle…     4            2   5       0          0                1
+#>  2 20     Patrick Cu…     3            2   4       0          0                0
+#>  3 8      Joe O'Brien     3            1   3.5     0          0                0
+#>  4 16     Eli Haynes      3            1   3.5     0          0                0
+#>  5 10     Ben Cross       2            2   3       0          0                0
+#>  6 17     Nolan Putt      3            0   3       0          0                0
+#>  7 56     Dan Porter      3            0   3       0          0                0
+#>  8 7      Mitch Garl…     2            1   2.5     0          0                0
+#>  9 44     Jayden Law…     2            1   2.5     0          0                0
+#> 10 96     Mitch Lyons     2            1   2.5     0          0                0
+#> # ℹ 5,411 more rows
+#> # ℹ 16 more variables: tackles_for_loss_yards <int>, forced_fumbles <int>,
+#> #   fumble_recovery <int>, fumble_recovery_yards_gained <int>,
+#> #   interceptions <int>, interception_yards_gained <int>,
+#> #   passes_broken_up <int>, blocked_kicks <int>, quarterback_hurries <int>,
+#> #   player_links <chr>, date <chr>, sport <chr>, link <chr>, game_id <chr>,
+#> #   season <chr>, path <chr>
 ```

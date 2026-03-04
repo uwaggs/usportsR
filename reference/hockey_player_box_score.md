@@ -26,21 +26,23 @@ A tibble.
 
 ``` r
 hockey_player_box_score("m",2018)
-#> # A tibble: 25,647 × 20
-#>    skaters         player_number pos       g     a plus_minus     s face_off_won
-#>    <chr>           <chr>         <chr> <int> <int>      <int> <int>        <int>
-#>  1 Adam Holwell    13            ""        0     1          1     0            0
-#>  2 Adam Laishram   21            ""        1     0          1     1            1
-#>  3 Adam Stevens    11            ""        0     0          1     2            7
-#>  4 Alexander Lepk… 14            ""        0     0          0     1            0
-#>  5 Bailey Webster  2             ""        0     1          1     4            0
-#>  6 Bryson Cianfro… 19            ""        0     1          1     3            2
-#>  7 Chase Marchand  NA             NA      NA    NA         NA    NA           NA
-#>  8 Chase Marchand… 35            "g"       0     0          0     0            0
-#>  9 Cole MacDonald  26            ""        1     0          1     2            0
-#> 10 Cristiano Digi… 13            ""        0     0         -1     2            2
-#> # ℹ 25,637 more rows
-#> # ℹ 12 more variables: face_off_total <int>, pim <int>, team <chr>, ga <int>,
-#> #   goalie_mins <chr>, sv <int>, shots_against <int>, goalie_pim <int>,
-#> #   game_id <chr>, player_links <chr>, season <chr>, season_type <chr>
+#> # A tibble: 26,444 × 23
+#>     team jersey_number player            position goals assists plus_minus shots
+#>    <int> <chr>         <chr>             <chr>    <int>   <int>      <int> <int>
+#>  1     1 2             Tate Olson        ""           0       0          0     1
+#>  2     1 3             Michael Zipp      ""           0       0         -1     0
+#>  3     1 7             Maurizio Colella  ""           0       0         -2     2
+#>  4     1 9             Ryan Foss         ""           0       0          0     1
+#>  5     1 10            Liam Maaskant     ""           0       0         -2     6
+#>  6     1 13            Cristiano Digiac… ""           0       0         -1     2
+#>  7     1 14            Alexander Lepkow… ""           0       0          0     1
+#>  8     1 19            Jack Flaman       ""           0       0         -2     0
+#>  9     1 20            Jack McClelland   ""           0       0         -1     1
+#> 10     1 21            Garrett McFadden  ""           0       0         -3     1
+#> # ℹ 26,434 more rows
+#> # ℹ 15 more variables: faceoffs_won <int>, faceoffs_total <int>,
+#> #   penalty_minutes <int>, goals_allowed <int>, minutes_played <chr>,
+#> #   saves <int>, shots_against <int>, starter_status <chr>, player_links <chr>,
+#> #   date <chr>, sport <chr>, link <chr>, game_id <chr>, season <chr>,
+#> #   path <chr>
 ```

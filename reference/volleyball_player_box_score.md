@@ -26,21 +26,23 @@ A tibble.
 
 ``` r
 volleyball_player_box_score("m",2018)
-#> # A tibble: 7,605 × 24
-#>    player_number player   sp        k     e    ta k_percentage     a    sa    se
-#>    <chr>         <chr>    <chr> <int> <int> <int>        <dbl> <int> <int> <int>
-#>  1 1             Blain C… 3         3     0     4        0.75     17     1     1
-#>  2 5             Liam La… 3         2     1    10        0.1       0     0     0
-#>  3 7             Tim Tay… 3         7     4    24        0.125     0     2     2
-#>  4 12            Hamish … 3         4     3    10        0.1       1     0     1
-#>  5 13            Mitchel… 3         2     2     7        0         1     2     3
-#>  6 14            Liam Ku… 3         7     2    15        0.333     1     0     1
-#>  7 2             Kyle Ha… 1         0     0     0        0         0     0     0
-#>  8 3             Derek M… 3         0     0     0        0         3     0     0
-#>  9 4             Tomas S… 1         0     0     0        0         0     0     1
-#> 10 10            Parker … 3         0     1     3       -0.333     1     0     0
-#> # ℹ 7,595 more rows
-#> # ℹ 14 more variables: re <int>, digs <int>, bs <int>, ba <int>, be <int>,
-#> #   bhe <int>, pts <dbl>, team_name <chr>, player_links <chr>, game_id <chr>,
-#> #   date_time <chr>, start <lgl>, season <chr>, season_type <chr>
+#> # A tibble: 14,442 × 27
+#>    jersey player        sets_played kills errors total_attacks attack_efficiency
+#>    <chr>  <chr>               <int> <int>  <int>         <int>             <dbl>
+#>  1 1      Landon Currie           3     0      0             2             0    
+#>  2 2      Isaac Smit              3     1      0             2             0.5  
+#>  3 6      Charlie Brin…           1     1      0             1             1    
+#>  4 7      Cole Hanson             3     4      1             5             0.6  
+#>  5 9      Samuel Elgert           3     1      0             2             0.5  
+#>  6 10     Ryan Hampe              3     5      3            11             0.182
+#>  7 15     Tim Dobbert             3    15      5            32             0.312
+#>  8 16     Sam Taylor P…           3     5      5            16             0    
+#>  9 17     Tim Edge                3     2      2             8             0    
+#> 10 3      Max Heppell             3     7      3            15             0.267
+#> # ℹ 14,432 more rows
+#> # ℹ 20 more variables: assists <int>, service_aces <int>, service_errors <int>,
+#> #   receive_errors <int>, digs <int>, block_stuffs <int>, block_assists <int>,
+#> #   block_errors <int>, ball_handling_errors <int>, points <dbl>, team <chr>,
+#> #   starter_status <lgl>, player_links <chr>, team_status <chr>, date <chr>,
+#> #   sport <chr>, link <chr>, game_id <chr>, season <chr>, path <chr>
 ```

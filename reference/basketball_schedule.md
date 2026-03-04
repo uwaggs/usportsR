@@ -22,20 +22,20 @@ A tibble.
 
 ``` r
 basketball_schedule("m")
-#> # A tibble: 5,045 × 14
-#>    Date    Away        Away_score Home  home_score Status Notes Month box_scores
-#>    <chr>   <chr>            <int> <chr>      <int> <chr>  <chr> <chr> <chr>     
-#>  1 Thu. 24 Guelph              NA Brock         NA 8:00 … NA    Octo… ""        
-#>  2 Fri. 25 Toronto             NA Laur…         NA 8:00 … NA    Octo… ""        
-#>  3 Fri. 25 Toronto Me…         NA Nipi…         NA 8:00 … NA    Octo… ""        
-#>  4 Fri. 25 Laurier             NA York          NA 8:00 … NA    Octo… ""        
-#>  5 Fri. 25 Windsor             NA Otta…         NA 8:00 … NA    Octo… ""        
-#>  6 Fri. 25 Waterloo            NA Lake…         NA 8:00 … NA    Octo… ""        
-#>  7 Fri. 25 Western             NA Carl…         NA 8:00 … NA    Octo… ""        
-#>  8 Fri. 25 Ontario Te…         NA McMa…         NA 8:00 … NA    Octo… ""        
-#>  9 Sat. 26 Queen's             NA Guel…         NA 3:00 … NA    Octo… ""        
-#> 10 Sat. 26 Windsor             NA Carl…         NA 8:00 … NA    Octo… ""        
-#> # ℹ 5,035 more rows
-#> # ℹ 5 more variables: conference <int>, division <int>, Exhibition <int>,
-#> #   PostSeason <int>, season <chr>
+#> # A tibble: 10,496 × 13
+#>    league season  game_id      date  exhibition conference playoffs championship
+#>    <chr>  <chr>   <chr>        <chr> <lgl>      <lgl>      <lgl>    <lgl>       
+#>  1 mbkb   2009-10 NA           2009… TRUE       FALSE      FALSE    FALSE       
+#>  2 mbkb   2009-10 NA           2009… TRUE       FALSE      FALSE    FALSE       
+#>  3 mbkb   2009-10 20091010_3r… 2009… TRUE       FALSE      FALSE    FALSE       
+#>  4 mbkb   2009-10 20091016_bz… 2009… TRUE       FALSE      FALSE    FALSE       
+#>  5 mbkb   2009-10 20091017_eu… 2009… TRUE       FALSE      FALSE    FALSE       
+#>  6 mbkb   2009-10 20091023_pu… 2009… TRUE       FALSE      FALSE    FALSE       
+#>  7 mbkb   2009-10 20091024_tk… 2009… TRUE       FALSE      FALSE    FALSE       
+#>  8 mbkb   2009-10 20091026_aj… 2009… TRUE       FALSE      FALSE    FALSE       
+#>  9 mbkb   2009-10 NA           2009… TRUE       FALSE      FALSE    FALSE       
+#> 10 mbkb   2009-10 NA           2009… TRUE       FALSE      FALSE    FALSE       
+#> # ℹ 10,486 more rows
+#> # ℹ 5 more variables: home_team <chr>, away_team <chr>, home_score <int>,
+#> #   away_score <int>, game_link <chr>
 ```

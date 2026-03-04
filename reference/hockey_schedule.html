@@ -56,22 +56,22 @@
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">hockey_schedule</span><span class="op">(</span><span class="st">"m"</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 7,319 × 14</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    Date    Away      Away_score Home    home_score Status Notes Month box_scores</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>          <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>     </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> Sun. 11 Nipissing          4 Laurier          5 Final… OUA … Febr… https://e…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> Wed. 14 Acadia             3 StFX             4 Final… AUS … Febr… https://e…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> Wed. 14 Ottawa             5 Ontari…          1 Final  OUA … Febr… https://e…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> Wed. 14 Laurier            7 Toronto          4 Final  OUA … Febr… https://e…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> Wed. 14 Windsor            3 Lakehe…          2 Final… OUA … Febr… https://e…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> Wed. 14 Concordia          3 Queen's          1 Final  OUA … Febr… https://e…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> Thu. 15 UPEI               3 Saint …          4 Final  AUS … Febr… https://e…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> Fri. 16 Queen's            3 Concor…          4 Final… OUA … Febr… https://e…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> Fri. 16 Lakehead           2 Windsor          7 Final  OUA … Febr… https://e…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> Fri. 16 Alberta            2 Saskat…          4 Final  CW Q… Febr… https://e…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 7,309 more rows</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 5 more variables: conference &lt;int&gt;, division &lt;int&gt;, Exhibition &lt;int&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   PostSeason &lt;int&gt;, season &lt;chr&gt;</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 8,855 × 13</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    league season  game_id      date  exhibition conference playoffs championship</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;lgl&gt;</span>       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> mice   2009-10 <span style="color: #BB0000;">NA</span>           2009… TRUE       FALSE      FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> mice   2009-10 <span style="color: #BB0000;">NA</span>           2009… TRUE       FALSE      FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> mice   2009-10 <span style="color: #BB0000;">NA</span>           2009… TRUE       FALSE      FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> mice   2009-10 <span style="color: #BB0000;">NA</span>           2009… TRUE       FALSE      FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> mice   2009-10 <span style="color: #BB0000;">NA</span>           2009… TRUE       FALSE      FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> mice   2009-10 <span style="color: #BB0000;">NA</span>           2009… TRUE       FALSE      FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> mice   2009-10 20091002_i5… 2009… FALSE      TRUE       FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> mice   2009-10 20091002_pi… 2009… FALSE      TRUE       FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> mice   2009-10 20091002_jd… 2009… FALSE      TRUE       FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> mice   2009-10 20091003_go… 2009… FALSE      TRUE       FALSE    FALSE       </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 8,845 more rows</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 5 more variables: home_team &lt;chr&gt;, away_team &lt;chr&gt;, home_score &lt;int&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   away_score &lt;int&gt;, game_link &lt;chr&gt;</span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
