@@ -21,9 +21,9 @@
 
 soccer_schedule <- function(gender) {
   if (gender == "m"){
-    read_csv("https://github.com/uwaggs/usports-data/releases/download/Soccer_Schedule/mens_msoc_schedule.csv") %>% tibble::tibble()
+    read_csv("https://github.com/uwaggs/usports-data/releases/download/new_schedules/msoc_schedule.csv") %>% tibble::tibble()
   }else if(gender == "w"){
-    read_csv("https://github.com/uwaggs/usports-data/releases/download/Soccer_Schedule/womens_wsoc_schedule.csv") %>% tibble::tibble()
+    read_csv("https://github.com/uwaggs/usports-data/releases/download/new_schedules/wsoc_schedule.csv") %>% tibble::tibble()
   }else{
     stop("Invalid input: 'gender' must be one of 'm' or 'w'")
   }
