@@ -26,21 +26,21 @@ A tibble.
 
 ``` r
 basketball_team_box_score("m",2018)
-#> # A tibble: 986 × 30
-#>    team       field_goals_made field_goals_attempted field_goal_percent
-#>    <chr>                 <int>                 <int>              <dbl>
-#>  1 Lethbridge               29                    67              0.433
-#>  2 Alberta                  30                    73              0.411
-#>  3 Lethbridge               21                    69              0.304
-#>  4 Alberta                  31                    67              0.463
-#>  5 Lethbridge               22                    59              0.373
-#>  6 Alberta                  27                    57              0.474
-#>  7 UBC                      25                    59              0.424
-#>  8 Alberta                  21                    69              0.304
-#>  9 UBC                      27                    72              0.375
-#> 10 Alberta                  32                    67              0.478
-#> # ℹ 976 more rows
-#> # ℹ 26 more variables: three_pointers_made <int>,
+#> # A tibble: 1,354 × 29
+#>    team               field_goals_made field_goals_attempted field_goal_percent
+#>    <chr>                         <int>                 <int>              <dbl>
+#>  1 Mississippi                      40                    69              0.58 
+#>  2 McGill                           18                    63              0.286
+#>  3 OleMiss                          33                    65              0.508
+#>  4 Concordia                        28                    62              0.452
+#>  5 Cincinnati                       25                    58              0.431
+#>  6 McGill                           19                    54              0.352
+#>  7 SouthCarolinaState               26                    55              0.473
+#>  8 Concordia                        27                    65              0.415
+#>  9 SouthDakotaState                 27                    66              0.409
+#> 10 McGill                           21                    67              0.313
+#> # ℹ 1,344 more rows
+#> # ℹ 25 more variables: three_pointers_made <int>,
 #> #   three_pointers_attempted <int>, three_point_percentage <dbl>,
 #> #   free_throws_made <int>, free_throws_attempted <int>,
 #> #   free_throw_percent <dbl>, rebounds <int>, assists <int>, turnovers <int>,

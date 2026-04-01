@@ -26,24 +26,24 @@ A tibble.
 
 ``` r
 basketball_player_box_score("m",2018)
-#> # A tibble: 11,715 × 29
-#>    period   team       team_status role    jersey_number name     minutes_played
-#>    <chr>    <chr>      <chr>       <chr>           <int> <chr>             <int>
-#>  1 1st Half Lethbridge away        STARTER             5 Kyle Pe…             28
-#>  2 1st Half Lethbridge away        STARTER             9 Zac Ove…             37
-#>  3 1st Half Lethbridge away        STARTER             3 Brett W…             27
-#>  4 1st Half Lethbridge away        STARTER             8 Chad Ov…             22
-#>  5 1st Half Lethbridge away        STARTER            23 Colton …             30
-#>  6 1st Half Lethbridge away        RESERVE             7 Mike Pi…             15
-#>  7 1st Half Lethbridge away        RESERVE             2 Eric Pi…             20
-#>  8 1st Half Lethbridge away        RESERVE            22 Keanu F…             12
-#>  9 1st Half Lethbridge away        RESERVE            10 Josh Sp…              9
-#> 10 1st Half Lethbridge away        TEAM               NA TEAM                  0
-#> # ℹ 11,705 more rows
-#> # ℹ 22 more variables: field_goals_made <int>, field_goals_attempted <int>,
+#> # A tibble: 46,794 × 28
+#>    period  team        team_status role    jersey_number name     minutes_played
+#>    <chr>   <chr>       <chr>       <chr>           <int> <chr>             <int>
+#>  1 1st Qtr Mississippi away        STARTER             0 Blake H…              6
+#>  2 1st Qtr Mississippi away        STARTER             2 Devonta…              8
+#>  3 1st Qtr Mississippi away        STARTER             3 Terence…              7
+#>  4 1st Qtr Mississippi away        STARTER             4 Breein …              6
+#>  5 1st Qtr Mississippi away        STARTER            12 Bruce S…              4
+#>  6 1st Qtr Mississippi away        RESERVE             1 Zach Na…              3
+#>  7 1st Qtr Mississippi away        RESERVE             5 Brian H…              2
+#>  8 1st Qtr Mississippi away        RESERVE            10 Carlos …              1
+#>  9 1st Qtr Mississippi away        RESERVE            11 Franco …              1
+#> 10 1st Qtr Mississippi away        RESERVE            13 Dominik…              3
+#> # ℹ 46,784 more rows
+#> # ℹ 21 more variables: field_goals_made <int>, field_goals_attempted <int>,
 #> #   three_pointers_made <int>, three_pointers_attempted <int>,
 #> #   free_throws_made <int>, free_throws_attempted <int>,
 #> #   offensive_rebounds <int>, defensive_rebounds <int>, total_rebounds <int>,
 #> #   assists <int>, steals <int>, blocks <int>, turnovers <int>,
-#> #   personal_fouls <int>, points <int>, player_links <chr>, game_id <chr>, …
+#> #   personal_fouls <int>, points <int>, player_links <chr>, date <chr>, …
 ```

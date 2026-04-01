@@ -56,25 +56,25 @@
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">football_kicking</span><span class="op">(</span><span class="fl">2018</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 872 × 22</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    player         action_type field_goals_made field_goals_attempted longest</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>          <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                  <span style="color: #949494; font-style: italic;">&lt;int&gt;</span>                 <span style="color: #949494; font-style: italic;">&lt;int&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;int&gt;</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> Adam Preocanin kicking                    1                     1      24</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> M. Domagala    kicking                    2                     2      22</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> Adam Preocanin kickoffs                  <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span>      <span style="color: #BB0000;">NA</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> M. Domagala    kickoffs                  <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span>      <span style="color: #BB0000;">NA</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> Adam Preocanin punting                   <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span>      47</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> M. Domagala    punting                   <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span>      51</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> Caleb Girard   kicking                   <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span>      <span style="color: #BB0000;">NA</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> Gabe Ferraro   kicking                    1                     1      36</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> Caleb Girard   kickoffs                  <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span>      <span style="color: #BB0000;">NA</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> Gabe Ferraro   kickoffs                  <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span>      <span style="color: #BB0000;">NA</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 862 more rows</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 17 more variables: extra_points_made &lt;int&gt;, extra_points_attempted &lt;int&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   return_yards &lt;int&gt;, points &lt;int&gt;, number &lt;int&gt;, yards &lt;int&gt;, average &lt;dbl&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   touchbacks &lt;int&gt;, inside_20 &lt;int&gt;, out_of_bounds &lt;int&gt;, player_links &lt;chr&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   date &lt;chr&gt;, sport &lt;chr&gt;, link &lt;chr&gt;, game_id &lt;chr&gt;, season &lt;chr&gt;,</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   path &lt;chr&gt;</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 816 × 23</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    player   team  team_status action_type field_goals_made field_goals_attempted</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                  <span style="color: #949494; font-style: italic;">&lt;int&gt;</span>                 <span style="color: #949494; font-style: italic;">&lt;int&gt;</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> Findlay… McGi… home        kicking                   <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> Nathan … Laur… away        kicking                    2                     2</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> Connor … Laur… away        kickoffs                  <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> Findlay… McGi… home        kickoffs                  <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> Nathan … Laur… away        kickoffs                  <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> Findlay… McGi… home        punting                   <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 7</span> Nathan … Laur… away        punting                   <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> Aaron C… Wate… away        kicking                    1                     1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> Caleb G… Wate… away        kicking                   <span style="color: #BB0000;">NA</span>                    <span style="color: #BB0000;">NA</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> K. Flan… Quee… home        kicking                    0                     1</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 806 more rows</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 17 more variables: longest &lt;int&gt;, extra_points_made &lt;int&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   extra_points_attempted &lt;int&gt;, return_yards &lt;int&gt;, points &lt;int&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   number &lt;int&gt;, yards &lt;int&gt;, average &lt;dbl&gt;, touchbacks &lt;int&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   inside_20 &lt;int&gt;, out_of_bounds &lt;int&gt;, player_links &lt;chr&gt;, date &lt;chr&gt;,</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   sport &lt;chr&gt;, link &lt;chr&gt;, game_id &lt;chr&gt;, season &lt;chr&gt;</span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

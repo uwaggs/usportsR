@@ -22,23 +22,23 @@ A tibble.
 
 ``` r
 football_kicking(2018)
-#> # A tibble: 872 × 22
-#>    player         action_type field_goals_made field_goals_attempted longest
-#>    <chr>          <chr>                  <int>                 <int>   <int>
-#>  1 Adam Preocanin kicking                    1                     1      24
-#>  2 M. Domagala    kicking                    2                     2      22
-#>  3 Adam Preocanin kickoffs                  NA                    NA      NA
-#>  4 M. Domagala    kickoffs                  NA                    NA      NA
-#>  5 Adam Preocanin punting                   NA                    NA      47
-#>  6 M. Domagala    punting                   NA                    NA      51
-#>  7 Caleb Girard   kicking                   NA                    NA      NA
-#>  8 Gabe Ferraro   kicking                    1                     1      36
-#>  9 Caleb Girard   kickoffs                  NA                    NA      NA
-#> 10 Gabe Ferraro   kickoffs                  NA                    NA      NA
-#> # ℹ 862 more rows
-#> # ℹ 17 more variables: extra_points_made <int>, extra_points_attempted <int>,
-#> #   return_yards <int>, points <int>, number <int>, yards <int>, average <dbl>,
-#> #   touchbacks <int>, inside_20 <int>, out_of_bounds <int>, player_links <chr>,
-#> #   date <chr>, sport <chr>, link <chr>, game_id <chr>, season <chr>,
-#> #   path <chr>
+#> # A tibble: 816 × 23
+#>    player   team  team_status action_type field_goals_made field_goals_attempted
+#>    <chr>    <chr> <chr>       <chr>                  <int>                 <int>
+#>  1 Findlay… McGi… home        kicking                   NA                    NA
+#>  2 Nathan … Laur… away        kicking                    2                     2
+#>  3 Connor … Laur… away        kickoffs                  NA                    NA
+#>  4 Findlay… McGi… home        kickoffs                  NA                    NA
+#>  5 Nathan … Laur… away        kickoffs                  NA                    NA
+#>  6 Findlay… McGi… home        punting                   NA                    NA
+#>  7 Nathan … Laur… away        punting                   NA                    NA
+#>  8 Aaron C… Wate… away        kicking                    1                     1
+#>  9 Caleb G… Wate… away        kicking                   NA                    NA
+#> 10 K. Flan… Quee… home        kicking                    0                     1
+#> # ℹ 806 more rows
+#> # ℹ 17 more variables: longest <int>, extra_points_made <int>,
+#> #   extra_points_attempted <int>, return_yards <int>, points <int>,
+#> #   number <int>, yards <int>, average <dbl>, touchbacks <int>,
+#> #   inside_20 <int>, out_of_bounds <int>, player_links <chr>, date <chr>,
+#> #   sport <chr>, link <chr>, game_id <chr>, season <chr>
 ```
