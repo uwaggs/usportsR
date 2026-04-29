@@ -22,7 +22,7 @@ A tibble.
 
 ``` r
 volleyball_schedule("m")
-#> # A tibble: 5,801 × 13
+#> # A tibble: 5,936 × 13
 #>    league season  game_id      date  exhibition conference playoffs championship
 #>    <chr>  <chr>   <chr>        <chr> <lgl>      <lgl>      <lgl>    <lgl>       
 #>  1 mvball 2009-10 NA           2009… TRUE       FALSE      FALSE    FALSE       
@@ -35,7 +35,7 @@ volleyball_schedule("m")
 #>  8 mvball 2009-10 20091023_31… 2009… FALSE      TRUE       FALSE    FALSE       
 #>  9 mvball 2009-10 20091024_91… 2009… FALSE      TRUE       FALSE    FALSE       
 #> 10 mvball 2009-10 20091024_3r… 2009… FALSE      TRUE       FALSE    FALSE       
-#> # ℹ 5,791 more rows
+#> # ℹ 5,926 more rows
 #> # ℹ 5 more variables: home_team <chr>, away_team <chr>, home_score <int>,
 #> #   away_score <int>, game_link <chr>
 ```
