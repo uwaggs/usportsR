@@ -2,13 +2,14 @@
 
 ## Authors
 
-- **Shamar Phillips**. Author, maintainer.
+- **Shamar Phillips**. Author.
 
 - **Matthew Chow**. Author. [](https://orcid.org/0009-0009-6045-6839)
 
 - **Rithika Silva**. Author.
 
-- **Pierre Aucoin**. Author. [](https://orcid.org/0009-0003-9739-6485)
+- **Pierre Aucoin**. Author, maintainer.
+  [](https://orcid.org/0009-0003-9739-6485)
 
 - **David Awosoga**. Author. [](https://orcid.org/0000-0002-2741-5770)
 

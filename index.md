@@ -19,6 +19,7 @@ You can install the development version of usportsR from
 [GitHub](https://github.com/) with:
 
 ``` r
+
 # install.packages("devtools")
 devtools::install_github("uwaggs/usportsR")
 ```
@@ -28,6 +29,7 @@ devtools::install_github("uwaggs/usportsR")
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
+
 library(usportsR)
 library(dplyr)
 #> 
@@ -62,6 +64,7 @@ head(mens_40_pt_games,10)
 ```
 
 ``` r
+
 library(ggplot2)
 ## simple plot to illustrate points vs assists in 40+ point games in Usport basketball games
 
