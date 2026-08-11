@@ -2,10 +2,10 @@ Package: usportsR
 Title: Access U SPORTS data
 Version: 0.0.0.9000
 Authors@R: 
-    c(person("Shamar", "Phillips", email = "slphilli@uwaterloo.ca", role = c("aut", "cre")),
+    c(person("Shamar", "Phillips", email = "slphilli@uwaterloo.ca", role = c("aut")),
     person("Matthew","Chow", email = "mc2chow@uwaterloo.ca", role = c("aut"), comment = c(ORCID = "0009-0009-6045-6839")),
     person("Rithika","Silva", email = "rithikasilva@outlook.com", role = "aut"),
-    person("Pierre", "Aucoin", email = "pierre.aucoin28@gmail.com", role = "aut", comment=c(ORCID = "0009-0003-9739-6485")),
+    person("Pierre", "Aucoin", email = "pierre.aucoin28@gmail.com", role = c("aut","cre"), comment=c(ORCID = "0009-0003-9739-6485")),
     person("David","Awosoga", email = "david.awosoga@uwaterloo.ca",role = "aut", comment = c(ORCID = "0000-0002-2741-5770")),
     person("University of Waterloo Analytics Group for Games and Sports (UWAGGS)", role="cph"))
 Description: a package to extract and analyze data from U SPORTS, the governing body of university sport in Canada.
