@@ -1,6 +1,6 @@
 Package: usportsR
 Title: Access U SPORTS data
-Version: 0.0.0.9000
+Version: 1.0.0
 Authors@R: 
     c(person("Shamar", "Phillips", email = "slphilli@uwaterloo.ca", role = c("aut")),
     person("Matthew","Chow", email = "mc2chow@uwaterloo.ca", role = c("aut"), comment = c(ORCID = "0009-0009-6045-6839")),
