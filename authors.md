@@ -22,13 +22,13 @@ Source:
 [`DESCRIPTION`](https://github.com/uwaggs/usportsR/blob/master/DESCRIPTION)
 
 Phillips S, Chow M, Silva R, Aucoin P, Awosoga D (2026). *usportsR:
-Access U SPORTS data*. R package version 0.0.0.9000,
+Access U SPORTS data*. R package version 1.0.0,
 <https://github.com/uwaggs/usportsR>.
 
     @Manual{,
       title = {usportsR: Access U SPORTS data},
       author = {Shamar Phillips and Matthew Chow and Rithika Silva and Pierre Aucoin and David Awosoga},
       year = {2026},
-      note = {R package version 0.0.0.9000},
+      note = {R package version 1.0.0},
       url = {https://github.com/uwaggs/usportsR},
     }
