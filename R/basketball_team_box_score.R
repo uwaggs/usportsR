@@ -44,7 +44,7 @@
 #' @export
 
 basketball_team_box_score <- function(gender, year = NULL) {
-  year <- check_schedule(year)
+  year <- check_season(year)
 
   if (gender == "m") {
     seasons <- create_season(year)
