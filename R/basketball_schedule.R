@@ -20,11 +20,17 @@
 #' @export
 
 basketball_schedule <- function(gender) {
-  if (gender == "m"){
-    read_csv("https://github.com/uwaggs/usports-data/releases/download/new_schedules/mbkb_schedule.csv") %>% tibble::tibble()
-  }else if(gender == "w"){
-    read_csv("https://github.com/uwaggs/usports-data/releases/download/new_schedules/wbkb_schedule.csv") %>% tibble::tibble()
-  }else{
+  if (gender == "m") {
+    read_csv("https://github.com/uwaggs/usports-data/releases/download/new_schedules/mbkb_schedule.csv") %>%
+      tibble::tibble() %>%
+      dplyr::select(-dplyr::any_of(c("event_id", "event_hash")))
+
+  } else if (gender == "w") {
+    read_csv("https://github.com/uwaggs/usports-data/releases/download/new_schedules/wbkb_schedule.csv") %>%
+      tibble::tibble() %>%
+      dplyr::select(-dplyr::any_of(c("event_id", "event_hash")))
+
+  } else {
     stop("Invalid input: 'gender' must be one of 'm' or 'w'")
   }
 }
