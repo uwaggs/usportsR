@@ -36,7 +36,7 @@
 #' basketball_player_box_score("m",2018)
 #' @export
 
-source(check_season.R)
+source("check_season.R")
 basketball_player_box_score <- function(gender, year = NULL) {
   year <- check_schedule(year)
 
