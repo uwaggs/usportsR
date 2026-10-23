@@ -37,7 +37,7 @@
 #' @export
 
 
-basketball_player_box <- function(gender, year = NULL) {
+basketball_player_box_score <- function(gender, year = NULL) {
   if (is.null(year) || length(year) < 1) {
     year <- 2009:(as.integer(format(Sys.Date(), "%Y")))
   }
