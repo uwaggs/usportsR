@@ -21,7 +21,7 @@
 #' basketball_pbp("m",2018)
 #' @export
 
-source("check_season.R")
+
 
 basketball_pbp <- function(gender, year = NULL) {
 
