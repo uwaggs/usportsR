@@ -42,7 +42,7 @@
 #' @examples
 #' basketball_team_box_score("m",2018)
 #' @export
-source("check_season.R")
+
 basketball_team_box_score <- function(gender, year = NULL) {
   year <- check_schedule(year)
 
