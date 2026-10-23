@@ -28,19 +28,38 @@
 #' soccer_player_box_score("m",2018)
 #' @export
 
-soccer_player_box_score <- function(gender,year = c()) {
-  if(length(year) < 1){
-    stop("Argument `year` is missing, with no default. Please select a season")
+soccer_player_box_score <- function(gender, year = NULL) {
+  if (is.null(year) || length(year) < 1) {
+    year <- 2009:(as.integer(format(Sys.Date(), "%Y")))
   }
-  if (gender == "m"){
+
+  if (gender == "m") {
     seasons <- create_season(year)
-    sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/msoc_player_box/msoc_player_box_",season, ".csv")) %>%
-      lapply(read_csv) %>% dplyr::bind_rows() %>% tibble::tibble()
-  }else if(gender == "w"){
+
+    sapply(seasons, function(season) {
+      paste0(
+        "https://github.com/uwaggs/usports-data/releases/download/msoc_player_box/msoc_player_box_",
+        season, ".csv"
+      )
+    }) %>%
+      lapply(read_csv) %>%
+      dplyr::bind_rows() %>%
+      tibble::tibble()
+
+  } else if (gender == "w") {
     seasons <- create_season(year)
-    sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/wsoc_player_box/wsoc_player_box_",season, ".csv")) %>%
-      lapply(read_csv) %>% dplyr::bind_rows() %>% tibble::tibble()
-  }else{
+
+    sapply(seasons, function(season) {
+      paste0(
+        "https://github.com/uwaggs/usports-data/releases/download/wsoc_player_box/wsoc_player_box_",
+        season, ".csv"
+      )
+    }) %>%
+      lapply(read_csv) %>%
+      dplyr::bind_rows() %>%
+      tibble::tibble()
+
+  } else {
     stop("Invalid input: 'gender' must be one of 'm' or 'w'")
   }
 }
