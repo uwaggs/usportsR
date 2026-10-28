@@ -19,7 +19,7 @@
 #' soccer_pbp("m",2018)
 #' @export
 
-soccer_pbp <- function(gender, year = NULL) {
+soccer_pbp <- function(gender, year = c()) {
   if (is.null(year) || length(year) < 1) {
     year <- 2009:(as.integer(format(Sys.Date(), "%Y")))
   }
