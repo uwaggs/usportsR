@@ -42,7 +42,7 @@
 #' soccer_team_box_score("m",2018)
 #' @export
 
-soccer_team_box_score <- function(gender, year = NULL) {
+soccer_team_box_score <- function(gender, year = c()) {
   if (is.null(year) || length(year) < 1) {
     year <- 2009:(as.integer(format(Sys.Date(), "%Y")))
   }
