@@ -37,7 +37,7 @@
 #' @export
 
 
-basketball_player_box_score <- function(gender, year = NULL) {
+basketball_player_box_score <- function(gender, year = c()) {
   year <- check_season(year)
 
   if (gender == "m") {
