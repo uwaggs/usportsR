@@ -32,9 +32,7 @@
 #' @export
 
 hockey_player_box_score <- function(gender, year = c()) {
-  if (is.null(year) || length(year) < 1) {
-    year <- 2009:(as.integer(format(Sys.Date(), "%Y")))
-  }
+  year<-check_season(year)
 
   if (gender == "m") {
     seasons <- create_season(year)
