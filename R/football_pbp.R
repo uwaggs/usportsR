@@ -19,9 +19,7 @@
 #' @export
 
 football_pbp <- function(year = c()) {
-  if(length(year) < 1){
-    stop("Argument `year` is missing, with no default. Please select a season")
-  }
+  year<-check_season(year)
   seasons <- create_season(year)
   sapply(seasons, function(season) paste0("https://github.com/uwaggs/usports-data/releases/download/fball_pbp/fball_pbp_",season, ".csv")) %>%
     lapply(read_csv) %>% dplyr::bind_rows() %>% tibble::tibble()
