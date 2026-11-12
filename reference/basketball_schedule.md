@@ -22,7 +22,7 @@ A tibble.
 
 ``` r
 basketball_schedule("m")
-#> # A tibble: 9,888 × 13
+#> # A tibble: 9,890 × 13
 #>    league season  game_id      date  exhibition conference playoffs championship
 #>    <chr>  <chr>   <chr>        <chr> <lgl>      <lgl>      <lgl>    <lgl>       
 #>  1 mbkb   2026-27 20260718_ei… 2026… TRUE       FALSE      FALSE    FALSE       
@@ -35,7 +35,7 @@ basketball_schedule("m")
 #>  8 mbkb   2026-27 20260730_qr… 2026… TRUE       FALSE      FALSE    FALSE       
 #>  9 mbkb   2026-27 20260730_ns… 2026… TRUE       FALSE      FALSE    FALSE       
 #> 10 mbkb   2026-27 NA           2026… TRUE       FALSE      FALSE    FALSE       
-#> # ℹ 9,878 more rows
+#> # ℹ 9,880 more rows
 #> # ℹ 5 more variables: home_team <chr>, away_team <chr>, home_score <int>,
 #> #   away_score <int>, game_link <chr>
 ```

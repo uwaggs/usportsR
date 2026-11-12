@@ -22,7 +22,7 @@ A tibble.
 
 ``` r
 hockey_schedule("m")
-#> # A tibble: 8,944 × 13
+#> # A tibble: 8,945 × 13
 #>    league season  game_id      date  exhibition conference playoffs championship
 #>    <chr>  <chr>   <chr>        <chr> <lgl>      <lgl>      <lgl>    <lgl>       
 #>  1 mice   2026-27 NA           2026… TRUE       FALSE      FALSE    FALSE       
@@ -35,7 +35,7 @@ hockey_schedule("m")
 #>  8 mice   2026-27 NA           2026… TRUE       FALSE      FALSE    FALSE       
 #>  9 mice   2026-27 NA           2026… TRUE       FALSE      FALSE    FALSE       
 #> 10 mice   2026-27 NA           2026… TRUE       FALSE      FALSE    FALSE       
-#> # ℹ 8,934 more rows
+#> # ℹ 8,935 more rows
 #> # ℹ 5 more variables: home_team <chr>, away_team <chr>, home_score <int>,
 #> #   away_score <int>, game_link <chr>
 ```
