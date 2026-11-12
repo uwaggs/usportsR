@@ -23,7 +23,7 @@
 
 
 
-basketball_pbp <- function(gender, year = NULL) {
+basketball_pbp <- function(gender, year = c()) {
 
   year <- check_season(year)
 

@@ -1,5 +1,8 @@
-check_season <- function(year = NULL) {
-  if (is.null(year) || length(year) < 1) {
+check_season <- function(year=c()) {
+  if (!is.numeric(year)) {
+    stop("Expected a numeric vector of years")
+  }
+  if ( length(year) < 1) {
     current_year <- as.integer(format(Sys.Date(), "%Y"))
     current_month <- as.integer(format(Sys.Date(), "%m"))
 

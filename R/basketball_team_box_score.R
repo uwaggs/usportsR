@@ -43,7 +43,7 @@
 #' basketball_team_box_score("m",2018)
 #' @export
 
-basketball_team_box_score <- function(gender, year = NULL) {
+basketball_team_box_score <- function(gender, year = c()) {
   year <- check_season(year)
 
   if (gender == "m") {
